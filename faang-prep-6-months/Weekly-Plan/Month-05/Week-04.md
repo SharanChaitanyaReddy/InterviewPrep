@@ -1,4 +1,4 @@
-# Month 05 - Week 04 Plan – FAANG Prep
+# Month 05 - Week 20 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -8,97 +8,186 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 20 – Month 5: System Design – Case Studies
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Apply all previous system design concepts to real-world case studies
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Understand trade-offs, scalability, and bottlenecks
 
----
+Hands-on coding + architecture diagram practice
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Folder structure for code / examples:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Code/python/week-20/
+├── day-01-url-shortener/
+├── day-02-rate-limiter/
+├── day-03-feed-system-part1/
+├── day-04-feed-system-part2/
+├── day-05-mini-project-integration/
+└── day-06-week-review-postmortem/
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Day 1: URL Shortener
 
----
+Topics:
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Problem requirements & constraints
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Database choice & schema
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Hashing vs Base62 encoding
 
----
+Scaling considerations: sharding & replication
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Dependencies:
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Week 19 (Databases, Caching)
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Code Folder: Code/python/week-20/day-01-url-shortener/
+Documentation Link: 05-System-Design/case-studies/url-shortener.md
 
----
+Hands-on Examples:
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Implement Python URL shortener with basic persistence
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Annotate hash collisions, performance bottlenecks
 
----
+Day 2: Rate Limiter
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Topics:
 
----
+Rate limiting concepts: token bucket, leaky bucket
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Distributed vs local rate limiting
 
----
+Integration with API gateways / microservices
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Dependencies:
+
+Day 1 (URL Shortener)
+
+Week 19 (Caching & Queues)
+
+Code Folder: Code/python/week-20/day-02-rate-limiter/
+Documentation Link: 05-System-Design/case-studies/rate-limiter.md
+
+Hands-on Examples:
+
+Implement Python token bucket rate limiter
+
+Annotate trade-offs: memory, consistency, fairness
+
+Day 3: Feed System – Part 1
+
+Topics:
+
+Problem statement: building a social feed
+
+Data model & database choices (SQL vs NoSQL)
+
+Pull-based vs push-based feed generation
+
+Caching hot posts
+
+Dependencies:
+
+Day 2 (Rate Limiter)
+
+Week 19 (Databases & Caching)
+
+Code Folder: Code/python/week-20/day-03-feed-system-part1/
+Documentation Link: 05-System-Design/case-studies/feed-system.md
+
+Hands-on Examples:
+
+Design basic feed system in Python
+
+Annotate query patterns, latency issues
+
+Day 4: Feed System – Part 2
+
+Topics:
+
+Scalability techniques: fan-out/fan-in, sharding
+
+Real-time feed vs batch generation
+
+Handling large number of users & updates
+
+Dependencies:
+
+Day 3 (Feed System Part 1)
+
+Code Folder: Code/python/week-20/day-04-feed-system-part2/
+Documentation Link: 05-System-Design/case-studies/feed-system.md
+
+Hands-on Examples:
+
+Simulate feed updates for multiple users
+
+Annotate bottlenecks, trade-offs, caching strategy
+
+Day 5: Mini Project Integration
+
+Topics:
+
+Integrate URL shortener + Rate Limiter + Feed System concepts
+
+Discuss end-to-end architecture
+
+Deployment & monitoring considerations
+
+Dependencies:
+
+Days 1–4
+
+Code Folder: Code/python/week-20/day-05-mini-project-integration/
+Documentation Link: 05-System-Design/case-studies/
+
+Hands-on Examples:
+
+Create mini-project skeleton linking all components
+
+Annotate scalability, fault tolerance, caching, and queues
+
+Day 6: Week Review & Postmortem
+
+Topics:
+
+Consolidate Week 20 case studies
+
+Identify weak spots for revision
+
+Update code → weekly MD → documentation links
+
+Dependencies:
+
+Days 1–5
+
+Code Folder: Code/python/week-20/day-06-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Examples:
+
+Solve mock system design questions combining multiple components
+
+Document trade-offs, bottlenecks, and improvements
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Diagram → Code → Documentation → Postmortem
+
+Commit code + notes end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 20:
+
+Practical understanding of real-world system design problems
+
+Hands-on mini-project integrating key components
+
+Clear linkage of concepts → code → documentation → revision
