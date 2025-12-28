@@ -8,97 +8,169 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 4 – Month 1: Hashing, Stacks & Queues, and Intermediate Patterns
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
+Build a solid foundation in hashing, stacks, and queues. Apply them to standard problems. Reinforce Python skills and link every concept to real-world application and problem-solving mindset.
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Folder structure for code:
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Code/python/week-04/
+├── day-01-hashing-basics/
+├── day-02-hashmaps-operations/
+├── day-03-stacks-basics/
+├── day-04-queues-basics/
+└── day-05-intermediate-problem-patterns/
 
----
+Day 1: Hashing – Basics & Understanding
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Topics:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+What is hashing? Why is it used?
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Hash functions, collisions, chaining & open addressing
 
----
+Python dict and set as hash map implementations
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Real-world example: counting items, frequency maps
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Dependencies: Arrays & Strings (Week 3) → Understanding iteration & frequency
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Code Folder: Code/python/week-04/day-01-hashing-basics/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/hashing.md
 
----
+Hands-on Coding:
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Count frequency of elements in a list
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Find unique elements in a string
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Discuss complexity (average vs worst-case)
 
----
+Day 2: Hash Maps – Operations & Problem Solving
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Topics:
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Insert, delete, lookup in Python dict
 
----
+Using dict/set for common problems: two-sum, duplicates, intersection
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Memory vs time trade-offs
 
----
+Dependencies: Hashing basics → frequency counting → problem-solving patterns
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Code Folder: Code/python/week-04/day-02-hashmaps-operations/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/hashing.md
 
----
+Hands-on Coding:
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Solve 2–3 small problems using hash maps
+
+Annotate why hash map was chosen, time-space analysis
+
+Link solution to weekly GitHub folder
+
+Day 3: Stacks – Basics & Operations
+
+Topics:
+
+Stack definition and real-world analogy (function call stack)
+
+Python list and collections.deque as stack
+
+Push, pop, peek operations
+
+Applications: expression evaluation, balancing parentheses
+
+Dependencies: Python lists → iteration patterns → stack concept
+
+Code Folder: Code/python/week-04/day-03-stacks-basics/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/stacks-queues.md
+
+Hands-on Coding:
+
+Implement stack in Python
+
+Evaluate simple arithmetic expressions
+
+Check for balanced parentheses
+
+Annotate time-space complexity
+
+Day 4: Queues – Basics & Operations
+
+Topics:
+
+Queue definition and real-world analogy (line at store)
+
+Python collections.deque as queue
+
+Enqueue, dequeue, peek
+
+Circular queue concept (brief)
+
+Dependencies: Python lists/deque → stack understanding → iteration patterns
+
+Code Folder: Code/python/week-04/day-04-queues-basics/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/stacks-queues.md
+
+Hands-on Coding:
+
+Implement queue in Python
+
+Solve simple problems: recent items tracker, moving average
+
+Annotate complexity & memory trade-offs
+
+Day 5: Intermediate Problem Patterns
+
+Topics:
+
+Combined usage of arrays + hash maps + stacks/queues
+
+Pattern practice:
+
+Next greater element (stack)
+
+Sliding window max/min (queue)
+
+Two-sum variants (hashing)
+
+Focus on concept → pattern → code → complexity analysis
+
+Dependencies: Arrays, Strings, Hashing, Stacks/Queues
+
+Code Folder: Code/python/week-04/day-05-intermediate-problem-patterns/
+Documentation Link: 03-Complexity-And-DSA/03-problem-patterns/
+
+Hands-on Coding:
+
+Solve 3–5 problems using combined patterns
+
+Annotate why pattern is chosen, time-space analysis
+
+Link all solutions to GitHub folder
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes per day for learning/coding
+
+Follow concept → pattern → coding → optimization → documentation
+
+Revise previous topics 5–10 minutes/day (arrays, strings)
+
+Commit code + notes at end of each day
+
+Maintain links to weekly MD file + documentation for easy navigation
+
+✅ Outcome of Week 4:
+
+Solid understanding of hashing, stacks, queues
+
+Ability to solve intermediate DSA problems using these structures
+
+Reinforced Python list/set/dict/deque usage
+
+Linked code to GitHub with annotated complexity analysis
+
+Dependencies maintained for Week 5 advanced topics
