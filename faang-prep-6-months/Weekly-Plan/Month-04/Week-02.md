@@ -8,97 +8,192 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 14 – Month 4: Advanced Graph Problems & Graph DP
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Solve advanced graph problems like topological sort, strongly connected components (SCC), and graph dynamic programming
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Connect graph DP to problem-solving patterns
 
----
+Folder structure for code:
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Code/python/week-14/
+├── day-01-topological-sort/
+├── day-02-kahns-algorithm/
+├── day-03-scc-kosaraju-tarjan/
+├── day-04-graph-dp-intro/
+├── day-05-graph-dp-problems/
+└── day-06-week-review-postmortem/
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Day 1: Topological Sort
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Topics:
 
----
+Concept of topological ordering in DAG (Directed Acyclic Graph)
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Real-world use cases: task scheduling, course prerequisites
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Recursive & iterative implementation
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Dependencies:
 
----
+BFS/DFS (Week 13)
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Graph representation (adjacency list)
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Code Folder: Code/python/week-14/day-01-topological-sort/
+Documentation Link: 04-Advanced-DSA/graphs/topological-sort.md
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Hands-on Coding:
 
----
+Implement DFS-based topological sort
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Solve small DAG problems
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Day 2: Kahn’s Algorithm (BFS for Topological Sort)
 
----
+Topics:
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Queue-based approach for topological sorting
 
----
+Compare DFS vs Kahn’s algorithm
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Detect cycles in DAG
 
----
+Dependencies:
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Day 1 (Topological Sort)
+
+Queues, graph traversal
+
+Code Folder: Code/python/week-14/day-02-kahns-algorithm/
+Documentation Link: 04-Advanced-DSA/graphs/topological-sort.md
+
+Hands-on Coding:
+
+Implement Kahn’s algorithm
+
+Solve DAG problems with edge cases & cycle detection
+
+Day 3: Strongly Connected Components (SCC)
+
+Topics:
+
+Concept of SCC in directed graphs
+
+Kosaraju’s algorithm (two DFS passes)
+
+Tarjan’s algorithm (single DFS + lowlink values)
+
+Applications: network analysis, dependency detection
+
+Dependencies:
+
+DFS (Week 13), topological sort (Days 1–2)
+
+Stack usage
+
+Code Folder: Code/python/week-14/day-03-scc-kosaraju-tarjan/
+Documentation Link: 04-Advanced-DSA/graphs/scc.md
+
+Hands-on Coding:
+
+Implement Kosaraju & Tarjan algorithms
+
+Annotate why each step is needed and complexity
+
+Day 4: Graph Dynamic Programming – Introduction
+
+Topics:
+
+Concept of graph DP
+
+When to apply DP on DAGs
+
+Examples: longest path in DAG, counting paths
+
+Dependencies:
+
+Topological sort, DAG knowledge (Days 1–2)
+
+DP concepts (Weeks 10–12)
+
+Code Folder: Code/python/week-14/day-04-graph-dp-intro/
+Documentation Link: 04-Advanced-DSA/graphs/graph-dp.md
+
+Hands-on Coding:
+
+Solve longest path in DAG using DP
+
+Annotate recurrence relation & dependencies
+
+Day 5: Graph DP Problems
+
+Topics:
+
+Counting paths in DAG
+
+Minimum/maximum cost paths
+
+Real-world examples: project planning, network flow prep
+
+Dependencies:
+
+Day 4 (graph DP intro)
+
+DP memoization & tabulation
+
+Code Folder: Code/python/week-14/day-05-graph-dp-problems/
+Documentation Link: 04-Advanced-DSA/graphs/graph-dp.md
+
+Hands-on Coding:
+
+Solve 1–2 medium graph DP problems
+
+Annotate edge cases & complexity analysis
+
+Day 6: Week Review & Postmortem
+
+Topics:
+
+Consolidate advanced graph concepts & DP problems
+
+Timed coding practice for topological sort, SCC, graph DP
+
+Identify weak areas & dependencies for revision
+
+Dependencies:
+
+Days 1–5 (all advanced graph topics)
+
+Code Folder: Code/python/week-14/day-06-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Coding:
+
+Solve 1–2 mixed graph problems in timed session
+
+Maintain postmortem notes linking to weekly MD file
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Pattern → Code → Optimization → Documentation
+
+Revise previous weeks 5–10 minutes/day
+
+Commit code + notes end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 14:
+
+Master topological sort, SCC, and graph DP
+
+Hands-on coding & timed problem-solving
+
+Clear linkage between code → weekly MD → revision notes
+
+Ready to move on to Mixed Graph & Advanced DP Problems in Week 15
