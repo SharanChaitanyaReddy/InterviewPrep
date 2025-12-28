@@ -6,99 +6,161 @@
 - Focus on **small wins every day**, not the entire roadmap at once.
 - Keep distractions away: phone on silent, no YouTube rabbit holes.
 
----
+Week 2 – Month 1: Python Basics & Intro to Data Structures
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Objective:
+Deepen Python understanding, explore memory/performance implications, and start hands-on work with lists, dictionaries, and sets. Continue building the problem-solving mindset with small exercises.
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Folder structure for code:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Code/python/week-02/
+├── day-01-memory-and-performance/
+├── day-02-lists-and-operations/
+├── day-03-dictionaries-and-operations/
+├── day-04-sets-and-usage/
+└── day-05-iteration-patterns/
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Day 1: Memory and Performance in Python
 
----
+Topics:
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+References vs copies (mutable vs immutable objects)
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Recursion depth and stack considerations
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Time vs space trade-offs in small algorithms
 
----
+Dependencies: Week 1 foundations → Python language basics
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Code Folder: Code/python/week-02/day-01-memory-and-performance/
+Documentation Link: 02-Python-Core/02-memory-and-performance/
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Hands-on Coding:
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Examples of shallow vs deep copy in lists and dictionaries
 
----
+Recursive vs iterative functions, measure stack usage
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Annotate why one approach is better for certain input sizes
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Day 2: Lists and Common Operations
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Topics:
 
----
+List creation, indexing, slicing
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Appending, inserting, removing elements
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Iteration patterns, nested lists
 
----
+Performance considerations (time complexity for operations)
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Dependencies: Python basics + memory/performance
 
----
+Code Folder: Code/python/week-02/day-02-lists-and-operations/
+Documentation Link: 02-Python-Core/03-python-for-dsa/list-dict-set-usage.md
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Hands-on Coding:
 
----
+Implement list-based problems (sum, reverse, find max/min)
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Track time complexity for each operation
+
+Add small test cases for validation
+
+Day 3: Dictionaries and Common Operations
+
+Topics:
+
+Creating dictionaries, key-value pairs
+
+Accessing, updating, deleting elements
+
+Hashing concept (simple explanation for Python dict)
+
+When to use dict vs list
+
+Dependencies: Lists → Hashing basics
+
+Code Folder: Code/python/week-02/day-03-dictionaries-and-operations/
+Documentation Link: 02-Python-Core/03-python-for-dsa/list-dict-set-usage.md
+
+Hands-on Coding:
+
+Implement frequency counter problems
+
+Count occurrences in a list using dict
+
+Track time complexity and explain why O(1) average for lookup
+
+Day 4: Sets and Usage
+
+Topics:
+
+Set creation, adding/removing elements
+
+Union, intersection, difference
+
+Use cases in DSA (removing duplicates, fast membership check)
+
+Dependencies: Dicts → Sets for optimization
+
+Code Folder: Code/python/week-02/day-04-sets-and-usage/
+Documentation Link: 02-Python-Core/03-python-for-dsa/list-dict-set-usage.md
+
+Hands-on Coding:
+
+Remove duplicates from lists using set
+
+Solve small membership-check problems
+
+Annotate why sets are efficient for specific operations
+
+Day 5: Iteration Patterns
+
+Topics:
+
+For loops, while loops, enumerate, zip
+
+Nested loops and performance impact
+
+List comprehensions and generator expressions
+
+When to use each iteration style (memory & speed trade-offs)
+
+Dependencies: Lists, dicts, sets → iteration patterns
+
+Code Folder: Code/python/week-02/day-05-iteration-patterns/
+Documentation Link: 02-Python-Core/03-python-for-dsa/iteration-patterns.md
+
+Hands-on Coding:
+
+Loop over lists/dicts/sets for common problems
+
+Convert loops into list comprehensions
+
+Annotate why one approach may be better than another
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes per day dedicated to learning/coding
+
+Follow concept → pattern → coding → optimization order
+
+Document code + learnings in GitHub
+
+Revise previous concepts daily (5–10 minutes per day)
+
+Commit and push code + notes at end of each day
+
+✅ Outcome of Week 2:
+
+Python memory & performance understanding
+
+Lists, dictionaries, sets mastered for DSA foundation
+
+Iteration patterns understood with optimization thinking
+
+All code linked to GitHub week-wise folder
+
+Revision of Week 1 concepts reinforced
