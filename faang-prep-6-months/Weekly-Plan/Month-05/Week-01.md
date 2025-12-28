@@ -1,4 +1,4 @@
-# Month 05 - Week 01 Plan – FAANG Prep
+# Month 05 - Week 17 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -8,97 +8,190 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 17 – Month 5: Advanced Greedy & Backtracking
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Strengthen understanding of greedy algorithms and backtracking
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Solve optimization problems and constraint satisfaction problems
 
----
+Learn how to choose between greedy, backtracking, and DP
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Folder structure for code:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Code/python/week-17/
+├── day-01-greedy-intro/
+├── day-02-greedy-problems/
+├── day-03-backtracking-intro/
+├── day-04-backtracking-basic-problems/
+├── day-05-backtracking-advanced-problems/
+└── day-06-week-review-postmortem/
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Day 1: Greedy Algorithms – Introduction
 
----
+Topics:
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Greedy algorithm concept, optimal substructure
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Use-cases: interval scheduling, activity selection, coin change
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Complexity analysis and trade-offs
 
----
+Dependencies:
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Arrays, Sorting, and basic DSA patterns (Weeks 5–10)
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Code Folder: Code/python/week-17/day-01-greedy-intro/
+Documentation Link: 04-Advanced-DSA/greedy-and-backtracking/greedy-intro.md
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Hands-on Coding:
 
----
+Implement basic greedy algorithms
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Annotate why greedy works, proof of correctness
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Day 2: Greedy Problems
 
----
+Topics:
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Solve classic greedy problems:
 
----
+Interval scheduling
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Fractional knapsack
 
----
+Minimum number of platforms
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Compare with brute-force approach
+
+Dependencies:
+
+Day 1 (Greedy Intro)
+
+Code Folder: Code/python/week-17/day-02-greedy-problems/
+Documentation Link: 04-Advanced-DSA/greedy-and-backtracking/greedy-problems.md
+
+Hands-on Coding:
+
+Solve 3–4 problems
+
+Annotate complexity, edge cases, and optimization tips
+
+Day 3: Backtracking – Introduction
+
+Topics:
+
+Concept of backtracking
+
+Difference between DFS and backtracking
+
+Use-cases: permutations, combinations, subsets, N-Queens
+
+Dependencies:
+
+Recursion and tree traversal (Weeks 10–12)
+
+Code Folder: Code/python/week-17/day-03-backtracking-intro/
+Documentation Link: 04-Advanced-DSA/greedy-and-backtracking/backtracking-intro.md
+
+Hands-on Coding:
+
+Implement basic backtracking template
+
+Annotate branching, pruning, and recursive calls
+
+Day 4: Backtracking – Basic Problems
+
+Topics:
+
+Solve permutations, combinations, subsets
+
+Explore backtracking tree visualization
+
+Complexity analysis
+
+Dependencies:
+
+Day 3 (Backtracking Intro)
+
+Code Folder: Code/python/week-17/day-04-backtracking-basic-problems/
+Documentation Link: 04-Advanced-DSA/greedy-and-backtracking/backtracking-basic-problems.md
+
+Hands-on Coding:
+
+Solve 3 problems
+
+Annotate recursion depth, pruning decisions, optimization patterns
+
+Day 5: Backtracking – Advanced Problems
+
+Topics:
+
+Solve constraint satisfaction problems:
+
+N-Queens
+
+Sudoku Solver
+
+Word Search
+
+Explore state-space pruning techniques
+
+Dependencies:
+
+Day 4 (Basic Problems)
+
+Code Folder: Code/python/week-17/day-05-backtracking-advanced-problems/
+Documentation Link: 04-Advanced-DSA/greedy-and-backtracking/backtracking-advanced-problems.md
+
+Hands-on Coding:
+
+Solve 2–3 advanced problems
+
+Annotate decision tree, backtracking path, and optimization notes
+
+Day 6: Week Review & Postmortem
+
+Topics:
+
+Consolidate Week 17 topics: Greedy + Backtracking
+
+Identify weak spots & create revision notes
+
+Link code → weekly MD → documentation
+
+Dependencies:
+
+Days 1–5 topics
+
+Code Folder: Code/python/week-17/day-06-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Coding:
+
+Solve 1–2 review problems
+
+Document edge cases, constraints, and key learnings
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Pattern → Code → Optimization → Documentation
+
+Revise previous weeks 5–10 minutes/day
+
+Commit code + notes end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 17:
+
+Confident with Greedy & Backtracking algorithms
+
+Able to solve optimization and constraint satisfaction problems efficiently
+
+Timed coding practice improves accuracy and speed
+
+Clear linkage of code → documentation → revision notes
