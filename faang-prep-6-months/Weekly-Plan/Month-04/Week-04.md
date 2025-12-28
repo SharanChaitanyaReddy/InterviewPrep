@@ -1,4 +1,4 @@
-# Month 04 - Week 04 Plan – FAANG Prep
+# Month 04 - Week 16 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -8,97 +8,184 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 16 – Month 4: Advanced Trees, Trie & Segment Trees
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Learn advanced tree structures like Trie, Segment Tree, and Fenwick Tree
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Understand use-cases in DSA for search, range queries, and optimization
 
----
+Strengthen ability to choose correct data structure for a problem
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Folder structure for code:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Code/python/week-16/
+├── day-01-advanced-trees-intro/
+├── day-02-trie-basics/
+├── day-03-trie-problems/
+├── day-04-segment-tree-intro/
+├── day-05-segment-tree-problems/
+└── day-06-week-review-postmortem/
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Day 1: Advanced Trees – Overview & Recap
 
----
+Topics:
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Review tree basics (Week 11–12)
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Introduce advanced trees: Trie, Segment Tree, Fenwick Tree
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Real-world examples: autocomplete, range sum, dynamic intervals
 
----
+Dependencies:
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Trees: traversal & BST (Weeks 11–12)
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+DP & recursion (Weeks 10–14)
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Code Folder: Code/python/week-16/day-01-advanced-trees-intro/
+Documentation Link: 04-Advanced-DSA/trees/advanced-trees.md
 
----
+Hands-on Coding:
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Implement binary tree structure templates
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Annotate why advanced trees are needed
 
----
+Day 2: Trie Basics
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Topics:
 
----
+Trie structure, insertion, search, and deletion
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Use-case: autocomplete, prefix search
 
----
+Complexity analysis (time & space)
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Dependencies:
+
+Basic tree structure & recursion
+
+Code Folder: Code/python/week-16/day-02-trie-basics/
+Documentation Link: 04-Advanced-DSA/trees/trie.md
+
+Hands-on Coding:
+
+Implement Trie with insert & search
+
+Annotate why Trie is better than hash map in prefix problems
+
+Day 3: Trie Problems
+
+Topics:
+
+Solve prefix & word search problems
+
+Example: word dictionary with wildcard, longest common prefix
+
+Identify trade-offs: space vs speed
+
+Dependencies:
+
+Day 2 (Trie basics)
+
+Code Folder: Code/python/week-16/day-03-trie-problems/
+Documentation Link: 04-Advanced-DSA/trees/trie-problems.md
+
+Hands-on Coding:
+
+Solve 2–3 Trie-based problems
+
+Document problem pattern → solution → complexity
+
+Day 4: Segment Tree Intro
+
+Topics:
+
+Segment Tree concept, building & updating
+
+Range query problems: sum, min, max
+
+Time & space complexity
+
+Dependencies:
+
+Array knowledge (Weeks 5–6)
+
+Tree traversal (Weeks 11–12)
+
+Code Folder: Code/python/week-16/day-04-segment-tree-intro/
+Documentation Link: 04-Advanced-DSA/trees/segment-tree.md
+
+Hands-on Coding:
+
+Implement Segment Tree with build and update
+
+Annotate why it is faster than naive range queries
+
+Day 5: Segment Tree Problems
+
+Topics:
+
+Solve range query problems: sum, max, min, XOR
+
+Advanced problems: lazy propagation
+
+Dependencies:
+
+Day 4 (Segment Tree Intro)
+
+Code Folder: Code/python/week-16/day-05-segment-tree-problems/
+Documentation Link: 04-Advanced-DSA/trees/segment-tree-problems.md
+
+Hands-on Coding:
+
+Solve 2–3 segment tree problems
+
+Annotate recurrences, updates, and queries
+
+Day 6: Week Review & Postmortem
+
+Topics:
+
+Consolidate Week 16 topics: Trie + Segment Tree + advanced tree concepts
+
+Identify weak areas & create revision notes
+
+Link code → weekly MD → documentation
+
+Dependencies:
+
+Days 1–5 topics
+
+Code Folder: Code/python/week-16/day-06-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Coding:
+
+Solve 1–2 review problems
+
+Document edge cases, constraints, and key learnings
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Pattern → Code → Optimization → Documentation
+
+Revise previous weeks 5–10 minutes/day
+
+Commit code + notes end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 16:
+
+Confident with Trie & Segment Tree
+
+Able to solve range query & prefix problems efficiently
+
+Timed coding practice improves accuracy and speed
+
+Clear linkage of code → documentation → revision notes
