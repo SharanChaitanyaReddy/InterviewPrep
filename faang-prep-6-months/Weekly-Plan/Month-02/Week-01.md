@@ -1,4 +1,4 @@
-# Month 02 - Week 01 Plan – FAANG Prep
+# Month 02 - Week 05 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -8,97 +8,161 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 5 – Month 2: Linked Lists & Recursion Introduction
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
+Build a solid foundation in linked lists and recursion, and understand how to apply them to problem-solving patterns. Reinforce Python concepts with hands-on coding and document everything.
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Folder structure for code:
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Code/python/week-05/
+├── day-01-linked-lists-intro/
+├── day-02-linked-lists-operations/
+├── day-03-linked-lists-problems/
+├── day-04-recursion-intro/
+└── day-05-recursion-patterns/
 
----
+Day 1: Linked Lists – Introduction
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Topics:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+What is a linked list? Singly vs Doubly vs Circular
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Real-world analogy: train of nodes, connections
 
----
+When to use linked lists vs arrays
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Node structure and pointers in Python
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Dependencies: Arrays (Week 3) → understanding linear data representation
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Code Folder: Code/python/week-05/day-01-linked-lists-intro/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/linked-lists.md
 
----
+Hands-on Coding:
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Implement basic Node class
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Create a simple singly linked list with insert & display
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Day 2: Linked Lists – Operations
 
----
+Topics:
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Insertion (head, tail, middle)
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Deletion (head, tail, middle)
 
----
+Searching nodes and traversals
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Time and space complexity of operations
 
----
+Dependencies: Day 1 linked list basics → node manipulation
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Code Folder: Code/python/week-05/day-02-linked-lists-operations/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/linked-lists.md
 
----
+Hands-on Coding:
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Insert/delete nodes at different positions
+
+Reverse a linked list iteratively
+
+Day 3: Linked Lists – Problem Solving
+
+Topics:
+
+Common patterns:
+
+Detect cycle in linked list
+
+Merge two sorted linked lists
+
+Find nth node from end
+
+Use of fast & slow pointers
+
+Dependencies: Day 1–2 linked lists operations → pointers concept
+
+Code Folder: Code/python/week-05/day-03-linked-lists-problems/
+Documentation Link: 03-Complexity-And-DSA/03-problem-patterns/binary-search.md (link for pointer-related patterns)
+
+Hands-on Coding:
+
+Solve 3–5 linked list problems
+
+Annotate pattern, time/space analysis
+
+Day 4: Recursion – Introduction
+
+Topics:
+
+What is recursion? Function calling itself
+
+Base case vs recursive case
+
+Real-world analogy: Russian dolls, factorial, Fibonacci
+
+Python recursion depth & stack behavior
+
+Dependencies: Functions in Python (Week 2) → call stack understanding
+
+Code Folder: Code/python/week-05/day-04-recursion-intro/
+Documentation Link: 02-Python-Core/02-memory-and-performance/recursion-depth.md
+
+Hands-on Coding:
+
+Factorial using recursion
+
+Fibonacci sequence using recursion
+
+Trace function calls to understand stack
+
+Day 5: Recursion – Patterns & Problem Solving
+
+Topics:
+
+Common recursion patterns:
+
+Divide & Conquer
+
+Backtracking foundation
+
+Problems: sum of array, max element, reverse string
+
+Linking recursion to tree traversal (preparation for Week 6)
+
+Dependencies: Day 4 recursion intro → arrays/strings (Week 3)
+
+Code Folder: Code/python/week-05/day-05-recursion-patterns/
+Documentation Link: 04-Advanced-DSA/trees/recursion-model.md
+
+Hands-on Coding:
+
+Solve 3–5 recursive problems
+
+Annotate base case, recursion depth, time/space complexity
+
+Prepare notes for linked recursion → tree traversal
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes per day dedicated to learning + coding
+
+Follow concept → pattern → code → optimization → documentation
+
+Revise previous topics 5–10 minutes/day (hashing, stacks, queues)
+
+Commit code + notes at the end of each day
+
+Maintain links to weekly MD file + documentation for easy navigation
+
+✅ Outcome of Week 5:
+
+Solid understanding of linked lists and operations
+
+Introduction to recursion with base problems
+
+Linked coding exercises with GitHub folder
+
+Dependencies maintained for Week 6 (Trees)
