@@ -1,25 +1,13 @@
-# Month 06 - Week 23 Plan – FAANG Prep
+# Week 23 – Month 6: Advanced RAG, LLM Fine-Tuning & Real-World AI Applications
 
-## 1. Motivation & Focus Reminder
-- This 90-minute daily preparation is **non-negotiable**.
-- Remember why you are doing this: building skills for **FAANG / top MNC**, mastering **DSA**, **system design**, and **AI fundamentals**.
-- Focus on **small wins every day**, not the entire roadmap at once.
-- Keep distractions away: phone on silent, no YouTube rabbit holes.
+**Objective:**  
+Understand advanced retrieval and ranking strategies. Learn fine-tuning LLMs for domain-specific tasks. Apply AI/ML in real-world scenarios with performance considerations.
 
 ---
 
-Week 23 – Month 6: Advanced RAG, LLM Fine-Tuning & Real-World AI Applications
+## Folder Structure for Code / Examples
 
-Objective:
-
-Understand advanced retrieval and ranking strategies
-
-Learn fine-tuning LLMs for domain-specific tasks
-
-Apply AI/ML in real-world scenarios with performance considerations
-
-Folder structure for code / examples:
-
+```
 Code/python/week-23/
 ├── day-01-advanced-retrieval/
 ├── day-02-ranking-and-augmentation/
@@ -27,173 +15,128 @@ Code/python/week-23/
 ├── day-04-evaluation-metrics/
 ├── day-05-real-world-ai-system/
 └── day-06-week-review-postmortem/
+```
 
-Day 1: Advanced Retrieval Techniques
+---
 
-Topics:
+## Day 1: Advanced Retrieval Techniques
 
-Dense vs sparse retrieval
+**Topics:**
+- Dense vs sparse retrieval  
+- Hybrid retrieval (BM25 + embeddings)  
+- Semantic search improvements  
 
-Hybrid retrieval (BM25 + embeddings)
+**Dependencies:** Week 22 (RAG introduction, embedding & retrieval pipelines)  
+**Code Folder:** `Code/python/week-23/day-01-advanced-retrieval/`  
+**Documentation Link:** `06-AI-Foundations/nlp-and-llms.md`  
 
-Semantic search improvements
+**Hands-on Examples:**
+- Implement hybrid retrieval combining BM25 + embeddings  
+- Compare results with simple embedding-only search  
+- Annotate impact on retrieval accuracy & latency
 
-Dependencies:
+---
 
-Week 22 (RAG introduction, embedding & retrieval pipelines)
+## Day 2: Ranking & Augmentation
 
-Code Folder: Code/python/week-23/day-01-advanced-retrieval/
-Documentation Link: 06-AI-Foundations/nlp-and-llms.md
+**Topics:**
+- Re-ranking retrieved documents  
+- Using LLMs for contextual augmentation  
+- Importance of top-k vs top-n retrieval  
 
-Hands-on Examples:
+**Dependencies:** Day 1  
+**Code Folder:** `Code/python/week-23/day-02-ranking-and-augmentation/`  
+**Documentation Link:** `06-AI-Foundations/system-design-for-ai.md`  
 
-Implement hybrid retrieval combining BM25 + embeddings
+**Hands-on Examples:**
+- Implement re-ranking using LLM scoring  
+- Experiment with different top-k values and measure quality  
+- Annotate why re-ranking improves generation
 
-Compare results with simple embedding-only search
+---
 
-Annotate impact on retrieval accuracy & latency
+## Day 3: LLM Fine-Tuning
 
-Day 2: Ranking & Augmentation
+**Topics:**
+- Domain adaptation via fine-tuning  
+- Methods: full model, LoRA, adapters  
+- Cost vs performance trade-offs  
 
-Topics:
+**Dependencies:** Week 22 (LLM basics, prompt engineering)  
+**Code Folder:** `Code/python/week-23/day-03-llm-fine-tuning/`  
+**Documentation Link:** `06-AI-Foundations/nlp-and-llms.md`  
 
-Re-ranking retrieved documents
+**Hands-on Examples:**
+- Fine-tune a small LLM on domain-specific text  
+- Test prompt + fine-tuning combination  
+- Document accuracy improvements & latency effects
 
-Using LLMs for contextual augmentation
+---
 
-Importance of top-k vs top-n retrieval
+## Day 4: Evaluation Metrics
 
-Dependencies:
+**Topics:**
+- Retrieval metrics: precision, recall, F1  
+- Generation metrics: BLEU, ROUGE, embedding-based similarity  
+- Trade-offs between automated metrics and human evaluation  
 
-Day 1
+**Dependencies:** Days 1–3  
+**Code Folder:** `Code/python/week-23/day-04-evaluation-metrics/`  
+**Documentation Link:** `06-AI-Foundations/ai-mental-models.md`  
 
-Code Folder: Code/python/week-23/day-02-ranking-and-augmentation/
-Documentation Link: 06-AI-Foundations/system-design-for-ai.md
+**Hands-on Examples:**
+- Compute retrieval + generation metrics for RAG system  
+- Compare baseline vs fine-tuned LLM performance  
+- Annotate which metrics matter in production
 
-Hands-on Examples:
+---
 
-Implement re-ranking using LLM scoring
+## Day 5: Real-World AI System Design
 
-Experiment with different top-k values and measure quality
+**Topics:**
+- End-to-end RAG + LLM deployment  
+- Scaling considerations: latency, throughput, memory  
+- Monitoring & logging for AI systems  
 
-Annotate why re-ranking improves generation
+**Dependencies:** Days 1–4  
+**Code Folder:** `Code/python/week-23/day-05-real-world-ai-system/`  
+**Documentation Link:** `05-System-Design/case-studies/feed-system.md`  
 
-Day 3: LLM Fine-Tuning
+**Hands-on Examples:**
+- Build mini AI service: query → retrieval → generation → response  
+- Implement simple logging & monitoring  
+- Document system trade-offs for production readiness
 
-Topics:
+---
 
-Domain adaptation via fine-tuning
+## Day 6: Week Review & Postmortem
 
-Methods: full model, LoRA, adapters
+**Topics:**
+- Consolidate Week 23 AI concepts  
+- Identify weak spots & revisit previous weeks’ concepts  
+- Update code → weekly MD → documentation links  
 
-Cost vs performance trade-offs
+**Dependencies:** Days 1–5  
+**Code Folder:** `Code/python/week-23/day-06-week-review-postmortem/`  
+**Documentation Link:** `Revision/weekly-review.md`  
 
-Dependencies:
+**Hands-on Examples:**
+- Test end-to-end RAG + fine-tuned LLM system  
+- Document lessons learned, metrics, improvements
 
-Week 22 (LLM basics, prompt engineering)
+---
 
-Code Folder: Code/python/week-23/day-03-llm-fine-tuning/
-Documentation Link: 06-AI-Foundations/nlp-and-llms.md
+## Daily Execution Rules (Non-Negotiable)
 
-Hands-on Examples:
+- 90 minutes/day minimum  
+- Concept → Diagram → Code → Documentation → Postmortem  
+- Commit code + notes at end of each day  
+- Maintain links to weekly MD + documentation
 
-Fine-tune a small LLM on domain-specific text
+---
 
-Test prompt + fine-tuning combination
+## ✅ Outcome of Week 23
 
-Document accuracy improvements & latency effects
-
-Day 4: Evaluation Metrics
-
-Topics:
-
-Retrieval metrics: precision, recall, F1
-
-Generation metrics: BLEU, ROUGE, embedding-based similarity
-
-Trade-offs between automated metrics and human evaluation
-
-Dependencies:
-
-Days 1–3
-
-Code Folder: Code/python/week-23/day-04-evaluation-metrics/
-Documentation Link: 06-AI-Foundations/ai-mental-models.md
-
-Hands-on Examples:
-
-Compute retrieval + generation metrics for RAG system
-
-Compare baseline vs fine-tuned LLM performance
-
-Annotate which metrics matter in production
-
-Day 5: Real-World AI System Design
-
-Topics:
-
-End-to-end RAG + LLM deployment
-
-Scaling considerations: latency, throughput, memory
-
-Monitoring & logging for AI systems
-
-Dependencies:
-
-Days 1–4
-
-Code Folder: Code/python/week-23/day-05-real-world-ai-system/
-Documentation Link: 05-System-Design/case-studies/feed-system.md
-
-Hands-on Examples:
-
-Build mini AI service: query → retrieval → generation → response
-
-Implement simple logging & monitoring
-
-Document system trade-offs for production readiness
-
-Day 6: Week Review & Postmortem
-
-Topics:
-
-Consolidate Week 23 AI concepts
-
-Identify weak spots & revisit previous weeks’ concepts
-
-Update code → weekly MD → documentation links
-
-Dependencies:
-
-Days 1–5
-
-Code Folder: Code/python/week-23/day-06-week-review-postmortem/
-Documentation Link: Revision/weekly-review.md
-
-Hands-on Examples:
-
-Test end-to-end RAG + fine-tuned LLM system
-
-Document lessons learned, metrics, improvements
-
-Daily Execution Rules (Non-Negotiable)
-
-90 minutes/day minimum
-
-Concept → Diagram → Code → Documentation → Postmortem
-
-Commit code + notes at end of each day
-
-Maintain links to weekly MD + documentation
-
-✅ Outcome of Week 23:
-
-Advanced understanding of RAG, re-ranking, fine-tuning
-
-End-to-end AI system ready for deployment experimentation
-
-Clear linkage of concepts → code → documentation → revision
-
-If you agree, we can proceed to Month 6 –
-
-ChatGPT can make mistakes. Check important info.
+- Advanced understanding of RAG, re-ranking, fine-tuning  
+- End-to-end AI system ready for deployment experimentation  
+- Clear linkage of concepts → code → documentation → revision
