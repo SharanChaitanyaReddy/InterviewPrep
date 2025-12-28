@@ -159,6 +159,3 @@ Code linked to GitHub week-wise folder
 
 Reinforced Python iteration & memory understanding
 
-If you approve, I can draft Week 4 which will move into hashing, stacks & queues, and deeper problem patterns, following the same day-wise, dependency-tree, code-linked format.
-
-Do you want me to proceed with Week 4 next?
