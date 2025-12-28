@@ -7,98 +7,190 @@
 - Keep distractions away: phone on silent, no YouTube rabbit holes.
 
 ---
+Week 15 – Month 4: Mixed Graph Problems & Advanced DP
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Objective:
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Solve mixed graph problems combining BFS/DFS, DP, and Greedy approaches
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Apply graph DP in more complex real-world scenarios
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Strengthen timed coding & optimization mindset
 
----
+Folder structure for code:
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Code/python/week-15/
+├── day-01-mixed-graph-problems/
+├── day-02-dag-longest-path-variants/
+├── day-03-min-cost-max-path/
+├── day-04-graph-dp-optimization/
+├── day-05-weekly-timed-session/
+└── day-06-week-review-postmortem/
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Day 1: Mixed Graph Problems – BFS + DFS + DP
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Topics:
 
----
+Problems that require a combination of BFS, DFS, and DP
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Example: Number of distinct paths with constraints
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Problem-solving pattern: identify dependencies → constraints → approach
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Dependencies:
 
----
+BFS/DFS (Weeks 13–14)
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Graph DP (Week 14)
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Code Folder: Code/python/week-15/day-01-mixed-graph-problems/
+Documentation Link: 04-Advanced-DSA/graphs/mixed-graph-problems.md
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Hands-on Coding:
 
----
+Implement counting paths in DAG with BFS + DP
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Annotate why each approach is needed
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Day 2: DAG – Longest Path Variants
 
----
+Topics:
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Longest path with weights
 
----
+Longest path with multiple constraints
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Real-world use: scheduling tasks with dependencies
 
----
+Dependencies:
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+DAG knowledge (Week 14)
+
+DP memoization/tabulation
+
+Code Folder: Code/python/week-15/day-02-dag-longest-path-variants/
+Documentation Link: 04-Advanced-DSA/graphs/graph-dp.md
+
+Hands-on Coding:
+
+Solve weighted longest path problems
+
+Annotate recurrences, optimization, edge cases
+
+Day 3: Minimum/Maximum Cost Paths
+
+Topics:
+
+Dijkstra, Bellman-Ford (weighted graphs)
+
+Applying graph DP for cost minimization
+
+Tradeoffs: time vs memory
+
+Dependencies:
+
+Graph traversal (Weeks 13–14)
+
+Priority queues / heap
+
+Code Folder: Code/python/week-15/day-03-min-cost-max-path/
+Documentation Link: 04-Advanced-DSA/graphs/min-max-path.md
+
+Hands-on Coding:
+
+Implement Dijkstra and Bellman-Ford
+
+Solve 1–2 problems with path reconstruction
+
+Day 4: Graph DP – Optimization Problems
+
+Topics:
+
+Applying DP on graphs for optimization problems
+
+Example: Max profit with constrained paths, network reliability
+
+Identifying subproblems → recurrence → memoization/tabulation
+
+Dependencies:
+
+Graph DP intro (Week 14)
+
+Advanced DP (Weeks 10–12)
+
+Code Folder: Code/python/week-15/day-04-graph-dp-optimization/
+Documentation Link: 04-Advanced-DSA/graphs/graph-dp.md
+
+Hands-on Coding:
+
+Solve graph optimization problems
+
+Annotate why DP is required and tradeoffs
+
+Day 5: Weekly Timed Session
+
+Topics:
+
+Solve 2–3 mixed graph problems in 90 minutes
+
+Simulate real interview conditions
+
+Focus on clarity, explanation, and efficiency
+
+Dependencies:
+
+Days 1–4 topics
+
+Code Folder: Code/python/week-15/day-05-weekly-timed-session/
+Documentation Link: Coding-Practice/timed-sessions.md
+
+Hands-on Coding:
+
+Implement problems in one sitting
+
+Record postmortem notes
+
+Day 6: Week Review & Postmortem
+
+Topics:
+
+Consolidate Week 15 graph DP & mixed graph concepts
+
+Identify weak areas & create revision notes
+
+Link code → weekly MD → documentation
+
+Dependencies:
+
+Days 1–5 topics
+
+Code Folder: Code/python/week-15/day-06-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Coding:
+
+Solve 1–2 review problems
+
+Document edge cases, constraints, and key learnings
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Pattern → Code → Optimization → Documentation
+
+Revise previous weeks 5–10 minutes/day
+
+Commit code + notes end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 15:
+
+Able to solve mixed graph problems combining BFS, DFS, DP
+
+Understand longest paths, min/max cost, graph optimization
+
+Timed coding practice improves speed and confidence
+
+Clear linkage of code → documentation → revision notes
