@@ -8,97 +8,188 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 19 – Month 5: System Design – Components & Caching
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Understand key components of system design: databases, caching, queues
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Learn how caching improves performance and caching strategies
 
----
+Develop ability to design scalable systems with proper component choice
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Folder structure for code / examples:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Code/python/week-19/
+├── day-01-databases/
+├── day-02-advanced-database-queries/
+├── day-03-caching-intro/
+├── day-04-caching-strategies/
+├── day-05-queues-and-messaging/
+└── day-06-week-review-postmortem/
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Day 1: Databases – Basics
 
----
+Topics:
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Relational vs Non-relational databases (SQL vs NoSQL)
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+ACID properties
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Normalization vs Denormalization
 
----
+Indexing & query optimization basics
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Dependencies:
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Week 17 (System Design Fundamentals)
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Code Folder: Code/python/week-19/day-01-databases/
+Documentation Link: 05-System-Design/components/databases.md
 
----
+Hands-on Examples:
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Create sample SQL tables
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Write queries with filtering, joins, and aggregate functions
 
----
+Annotate how indexes affect query performance
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Day 2: Advanced Database Queries
 
----
+Topics:
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Query optimization techniques
 
----
+Use of caching hints
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Partitioning & Sharding concepts
+
+Transaction isolation levels
+
+Dependencies:
+
+Day 1 (Database Basics)
+
+Code Folder: Code/python/week-19/day-02-advanced-database-queries/
+Documentation Link: 05-System-Design/components/databases.md
+
+Hands-on Examples:
+
+Write complex SQL queries
+
+Test queries with sample dataset and analyze performance
+
+Day 3: Caching Introduction
+
+Topics:
+
+Why caching is needed
+
+In-memory caches (Redis, Memcached)
+
+Cache-aside, Read-through, Write-through strategies
+
+Dependencies:
+
+Day 2 (Database Queries)
+
+Code Folder: Code/python/week-19/day-03-caching-intro/
+Documentation Link: 05-System-Design/components/caching.md
+
+Hands-on Examples:
+
+Simple Python + Redis caching example
+
+Annotate when to cache and invalidation basics
+
+Day 4: Caching Strategies
+
+Topics:
+
+Cache eviction policies: LRU, LFU, TTL
+
+Hot data vs cold data caching
+
+Trade-offs: memory vs latency
+
+Avoiding cache stampede
+
+Dependencies:
+
+Day 3 (Caching Intro)
+
+Code Folder: Code/python/week-19/day-04-caching-strategies/
+Documentation Link: 05-System-Design/components/caching.md
+
+Hands-on Examples:
+
+Implement LRU cache in Python
+
+Annotate when to choose a strategy
+
+Day 5: Queues & Messaging
+
+Topics:
+
+Introduction to queues (RabbitMQ, Kafka, SQS)
+
+Use-cases for asynchronous processing
+
+Producer-consumer model
+
+Fan-out / Fan-in patterns
+
+Dependencies:
+
+Day 4 (Caching Strategies)
+
+Code Folder: Code/python/week-19/day-05-queues-and-messaging/
+Documentation Link: 05-System-Design/components/queues.md
+
+Hands-on Examples:
+
+Python example simulating queue processing
+
+Annotate message ordering, retries, and throughput considerations
+
+Day 6: Week Review & Postmortem
+
+Topics:
+
+Consolidate Week 19 topics: Databases, Caching, Queues
+
+Identify weak spots & create revision notes
+
+Link code → weekly MD → documentation
+
+Dependencies:
+
+Days 1–5
+
+Code Folder: Code/python/week-19/day-06-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Examples:
+
+Solve 1–2 small system design scenarios applying databases, caching, queues
+
+Document trade-offs, scalability, and bottlenecks
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Diagram → Code → Documentation → Postmortem
+
+Commit code + notes end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 19:
+
+Strong understanding of databases, caching, and queues in system design
+
+Able to design scalable, low-latency systems using proper components
+
+Clear linkage of code → documentation → revision notes
