@@ -1,25 +1,13 @@
-# Month 04 - Week 13 Plan – FAANG Prep
+# Week 13 – Month 4: Graphs & Advanced Trees – BFS/DFS & Traversals
 
-## 1. Motivation & Focus Reminder
-- This 90-minute daily preparation is **non-negotiable**.
-- Remember why you are doing this: building skills for **FAANG / top MNC**, mastering **DSA**, **system design**, and **AI fundamentals**.
-- Focus on **small wins every day**, not the entire roadmap at once.
-- Keep distractions away: phone on silent, no YouTube rabbit holes.
+**Objective:**  
+Deep dive into Graphs: BFS, DFS, shortest path, cycle detection, and advanced Tree traversals. Connect graph/tree concepts to problem patterns.
 
 ---
 
-Week 13 – Month 4: Graphs & Advanced Trees – BFS/DFS & Traversals
+## Folder Structure for Code
 
-Objective:
-
-Deep dive into Graphs: BFS, DFS, shortest path, cycle detection
-
-Advanced Tree traversals (preorder, inorder, postorder, level order)
-
-Connect graph/tree concepts to problem patterns
-
-Folder structure for code:
-
+```
 Code/python/week-13/
 ├── day-01-graph-intro/
 ├── day-02-bfs-dfs/
@@ -27,177 +15,127 @@ Code/python/week-13/
 ├── day-04-cycle-detection/
 ├── day-05-tree-traversals/
 └── day-06-week-review-postmortem/
+```
 
-Day 1: Graph Introduction
+---
 
-Topics:
+## Day 1: Graph Introduction
 
-Graph definitions: nodes, edges, weighted/unweighted, directed/undirected
+**Topics:**
+- Graph definitions: nodes, edges, weighted/unweighted, directed/undirected
+- Graph representations: adjacency matrix, adjacency list
+- Real-world applications (social networks, maps, task dependencies)
+- Complexity of graph storage & operations
 
-Graph representations: adjacency matrix, adjacency list
+**Dependencies:** Arrays, linked lists, recursion  
+**Code Folder:** `Code/python/week-13/day-01-graph-intro/`  
+**Documentation Link:** `04-Advanced-DSA/graphs/bfs-dfs.md`  
 
-Real-world applications (social networks, maps, task dependencies)
+**Hands-on Coding:**
+- Implement graph creation using adjacency list & matrix
+- Visualize small graphs for practice
 
-Complexity of graph storage & operations
+---
 
-Dependencies:
+## Day 2: BFS & DFS
 
-Arrays, linked lists (for adjacency list representation)
+**Topics:**
+- BFS: queue-based traversal, level-order, shortest unweighted path
+- DFS: recursion & stack, backtracking style exploration
+- Compare BFS vs DFS: use cases & complexity
 
-Recursion (for traversal prep)
+**Dependencies:** Day 1 (graph representation), stacks, queues  
+**Code Folder:** `Code/python/week-13/day-02-bfs-dfs/`  
+**Documentation Link:** `04-Advanced-DSA/graphs/bfs-dfs.md`  
 
-Code Folder: Code/python/week-13/day-01-graph-intro/
-Documentation Link: 04-Advanced-DSA/graphs/bfs-dfs.md
+**Hands-on Coding:**
+- Solve simple BFS & DFS problems
+- Track visited nodes, path reconstruction
 
-Hands-on Coding:
+---
 
-Implement graph creation using adjacency list & matrix
+## Day 3: Shortest Paths
 
-Visualize small graphs for practice
+**Topics:**
+- Dijkstra’s algorithm (weighted graphs, no negative cycles)
+- Bellman-Ford algorithm (negative weights)
+- Applications: navigation, task scheduling
 
-Day 2: BFS & DFS
+**Dependencies:** Day 2 (BFS/DFS), priority queues & heaps  
+**Code Folder:** `Code/python/week-13/day-03-shortest-paths/`  
+**Documentation Link:** `04-Advanced-DSA/graphs/shortest-path.md`  
 
-Topics:
+**Hands-on Coding:**
+- Implement Dijkstra’s for sample graphs
+- Solve 1–2 shortest path problems
 
-BFS: queue-based traversal, level-order, shortest unweighted path
+---
 
-DFS: recursion & stack, backtracking style exploration
+## Day 4: Cycle Detection
 
-Compare BFS vs DFS: use cases & complexity
+**Topics:**
+- Detect cycles in directed & undirected graphs
+- Union-Find / Disjoint Set for undirected graphs
+- DFS-based cycle detection for directed graphs
 
-Dependencies:
+**Dependencies:** Days 1–3 (graph representations, traversals, shortest paths), recursion, stacks  
+**Code Folder:** `Code/python/week-13/day-04-cycle-detection/`  
+**Documentation Link:** `04-Advanced-DSA/graphs/cycle-detection.md`  
 
-Day 1 (graph representation)
+**Hands-on Coding:**
+- Solve cycle detection problems
+- Annotate why each approach works, time & space complexity
 
-Stacks, queues (from core DSA)
+---
 
-Code Folder: Code/python/week-13/day-02-bfs-dfs/
-Documentation Link: 04-Advanced-DSA/graphs/bfs-dfs.md
+## Day 5: Tree Traversals
 
-Hands-on Coding:
+**Topics:**
+- Preorder, Inorder, Postorder, Level-order traversals
+- Recursive vs iterative implementation
+- Advanced concepts: height, diameter, LCA (Lowest Common Ancestor)
 
-Solve simple BFS & DFS problems
+**Dependencies:** Core trees from Weeks 9–11, stacks, recursion  
+**Code Folder:** `Code/python/week-13/day-05-tree-traversals/`  
+**Documentation Link:** `04-Advanced-DSA/trees/traversal.md`  
 
-Track visited nodes, path reconstruction
+**Hands-on Coding:**
+- Implement all traversals on sample trees
+- Solve small problems using tree properties
 
-Day 3: Shortest Paths
+---
 
-Topics:
+## Day 6: Week Review & Postmortem
 
-Dijkstra’s algorithm (weighted graphs, no negative cycles)
+**Topics:**
+- Consolidate graph & tree traversal knowledge
+- Review timed coding for graph/tree problems
+- Identify weak areas & dependencies
 
-Bellman-Ford algorithm (negative weights)
+**Dependencies:** Days 1–5 (graph & tree concepts)  
+**Code Folder:** `Code/python/week-13/day-06-week-review-postmortem/`  
+**Documentation Link:** `Revision/weekly-review.md`  
 
-Applications: navigation, task scheduling
+**Hands-on Coding:**
+- Solve 1–2 medium graph/tree problems
+- Maintain postmortem notes
+- Ensure all code links to weekly MD file
 
-Dependencies:
+---
 
-Day 2 (BFS/DFS)
+## Daily Execution Rules (Non-Negotiable)
 
-Priority queues & heaps
+- 90 minutes/day minimum  
+- Concept → Pattern → Code → Optimization → Documentation  
+- Revise previous weeks 5–10 minutes/day  
+- Commit code + notes end of each day  
+- Maintain links to weekly MD + documentation
 
-Code Folder: Code/python/week-13/day-03-shortest-paths/
-Documentation Link: 04-Advanced-DSA/graphs/shortest-path.md
+---
 
-Hands-on Coding:
+## ✅ Outcome of Week 13
 
-Implement Dijkstra’s for sample graphs
-
-Solve 1–2 shortest path problems
-
-Day 4: Cycle Detection
-
-Topics:
-
-Detect cycles in directed & undirected graphs
-
-Union-Find / Disjoint Set for undirected graphs
-
-DFS-based cycle detection for directed graphs
-
-Dependencies:
-
-Days 1–3 (graph representations, traversals, shortest paths)
-
-Recursion, stacks
-
-Code Folder: Code/python/week-13/day-04-cycle-detection/
-Documentation Link: 04-Advanced-DSA/graphs/cycle-detection.md
-
-Hands-on Coding:
-
-Solve cycle detection problems
-
-Annotate why each approach works, time & space complexity
-
-Day 5: Tree Traversals
-
-Topics:
-
-Preorder, Inorder, Postorder, Level-order traversals
-
-Recursive vs iterative implementation
-
-Advanced concepts: height, diameter, LCA (Lowest Common Ancestor)
-
-Dependencies:
-
-Core trees from Week 9–11
-
-Stacks, recursion
-
-Code Folder: Code/python/week-13/day-05-tree-traversals/
-Documentation Link: 04-Advanced-DSA/trees/traversal.md
-
-Hands-on Coding:
-
-Implement all traversals on sample trees
-
-Solve small problems using tree properties
-
-Day 6: Week Review & Postmortem
-
-Topics:
-
-Consolidate graph & tree traversal knowledge
-
-Review timed coding for graph/tree problems
-
-Identify weak areas & dependencies
-
-Dependencies:
-
-Days 1–5 (graph & tree concepts)
-
-Code Folder: Code/python/week-13/day-06-week-review-postmortem/
-Documentation Link: Revision/weekly-review.md
-
-Hands-on Coding:
-
-Solve 1–2 medium graph/tree problems
-
-Maintain postmortem notes
-
-Ensure all code links to weekly MD file
-
-Daily Execution Rules (Non-Negotiable)
-
-90 minutes/day minimum
-
-Concept → Pattern → Code → Optimization → Documentation
-
-Revise previous weeks 5–10 minutes/day
-
-Commit code + notes end of each day
-
-Maintain links to weekly MD + documentation
-
-✅ Outcome of Week 13:
-
-Solid understanding of graphs and advanced tree traversals
-
-Hands-on coding & timed problem-solving
-
-Clear linkage between code → weekly MD → revision notes
-
-Ready to move on to Graph Advanced Topics & Problem Patterns in Week 14
+- Solid understanding of graphs and advanced tree traversals  
+- Hands-on coding & timed problem-solving  
+- Clear linkage between code → weekly MD → revision notes  
+- Ready to move on to Graph Advanced Topics & Problem Patterns in Week 14
