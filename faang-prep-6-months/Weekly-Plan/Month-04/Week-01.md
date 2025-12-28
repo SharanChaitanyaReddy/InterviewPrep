@@ -8,97 +8,196 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 13 – Month 4: Graphs & Advanced Trees – BFS/DFS & Traversals
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Deep dive into Graphs: BFS, DFS, shortest path, cycle detection
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Advanced Tree traversals (preorder, inorder, postorder, level order)
 
----
+Connect graph/tree concepts to problem patterns
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Folder structure for code:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Code/python/week-13/
+├── day-01-graph-intro/
+├── day-02-bfs-dfs/
+├── day-03-shortest-paths/
+├── day-04-cycle-detection/
+├── day-05-tree-traversals/
+└── day-06-week-review-postmortem/
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Day 1: Graph Introduction
 
----
+Topics:
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Graph definitions: nodes, edges, weighted/unweighted, directed/undirected
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Graph representations: adjacency matrix, adjacency list
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Real-world applications (social networks, maps, task dependencies)
 
----
+Complexity of graph storage & operations
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Dependencies:
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Arrays, linked lists (for adjacency list representation)
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Recursion (for traversal prep)
 
----
+Code Folder: Code/python/week-13/day-01-graph-intro/
+Documentation Link: 04-Advanced-DSA/graphs/bfs-dfs.md
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Hands-on Coding:
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Implement graph creation using adjacency list & matrix
 
----
+Visualize small graphs for practice
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Day 2: BFS & DFS
 
----
+Topics:
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+BFS: queue-based traversal, level-order, shortest unweighted path
 
----
+DFS: recursion & stack, backtracking style exploration
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Compare BFS vs DFS: use cases & complexity
+
+Dependencies:
+
+Day 1 (graph representation)
+
+Stacks, queues (from core DSA)
+
+Code Folder: Code/python/week-13/day-02-bfs-dfs/
+Documentation Link: 04-Advanced-DSA/graphs/bfs-dfs.md
+
+Hands-on Coding:
+
+Solve simple BFS & DFS problems
+
+Track visited nodes, path reconstruction
+
+Day 3: Shortest Paths
+
+Topics:
+
+Dijkstra’s algorithm (weighted graphs, no negative cycles)
+
+Bellman-Ford algorithm (negative weights)
+
+Applications: navigation, task scheduling
+
+Dependencies:
+
+Day 2 (BFS/DFS)
+
+Priority queues & heaps
+
+Code Folder: Code/python/week-13/day-03-shortest-paths/
+Documentation Link: 04-Advanced-DSA/graphs/shortest-path.md
+
+Hands-on Coding:
+
+Implement Dijkstra’s for sample graphs
+
+Solve 1–2 shortest path problems
+
+Day 4: Cycle Detection
+
+Topics:
+
+Detect cycles in directed & undirected graphs
+
+Union-Find / Disjoint Set for undirected graphs
+
+DFS-based cycle detection for directed graphs
+
+Dependencies:
+
+Days 1–3 (graph representations, traversals, shortest paths)
+
+Recursion, stacks
+
+Code Folder: Code/python/week-13/day-04-cycle-detection/
+Documentation Link: 04-Advanced-DSA/graphs/cycle-detection.md
+
+Hands-on Coding:
+
+Solve cycle detection problems
+
+Annotate why each approach works, time & space complexity
+
+Day 5: Tree Traversals
+
+Topics:
+
+Preorder, Inorder, Postorder, Level-order traversals
+
+Recursive vs iterative implementation
+
+Advanced concepts: height, diameter, LCA (Lowest Common Ancestor)
+
+Dependencies:
+
+Core trees from Week 9–11
+
+Stacks, recursion
+
+Code Folder: Code/python/week-13/day-05-tree-traversals/
+Documentation Link: 04-Advanced-DSA/trees/traversal.md
+
+Hands-on Coding:
+
+Implement all traversals on sample trees
+
+Solve small problems using tree properties
+
+Day 6: Week Review & Postmortem
+
+Topics:
+
+Consolidate graph & tree traversal knowledge
+
+Review timed coding for graph/tree problems
+
+Identify weak areas & dependencies
+
+Dependencies:
+
+Days 1–5 (graph & tree concepts)
+
+Code Folder: Code/python/week-13/day-06-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Coding:
+
+Solve 1–2 medium graph/tree problems
+
+Maintain postmortem notes
+
+Ensure all code links to weekly MD file
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Pattern → Code → Optimization → Documentation
+
+Revise previous weeks 5–10 minutes/day
+
+Commit code + notes end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 13:
+
+Solid understanding of graphs and advanced tree traversals
+
+Hands-on coding & timed problem-solving
+
+Clear linkage between code → weekly MD → revision notes
+
+Ready to move on to Graph Advanced Topics & Problem Patterns in Week 14
