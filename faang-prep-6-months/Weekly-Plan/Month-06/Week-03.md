@@ -1,4 +1,4 @@
-# Month 06 - Week 03 Plan – FAANG Prep
+# Month 06 - Week 23 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -8,97 +8,192 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 23 – Month 6: Advanced RAG, LLM Fine-Tuning & Real-World AI Applications
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Understand advanced retrieval and ranking strategies
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Learn fine-tuning LLMs for domain-specific tasks
 
----
+Apply AI/ML in real-world scenarios with performance considerations
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Folder structure for code / examples:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Code/python/week-23/
+├── day-01-advanced-retrieval/
+├── day-02-ranking-and-augmentation/
+├── day-03-llm-fine-tuning/
+├── day-04-evaluation-metrics/
+├── day-05-real-world-ai-system/
+└── day-06-week-review-postmortem/
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Day 1: Advanced Retrieval Techniques
 
----
+Topics:
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Dense vs sparse retrieval
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Hybrid retrieval (BM25 + embeddings)
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Semantic search improvements
 
----
+Dependencies:
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Week 22 (RAG introduction, embedding & retrieval pipelines)
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Code Folder: Code/python/week-23/day-01-advanced-retrieval/
+Documentation Link: 06-AI-Foundations/nlp-and-llms.md
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Hands-on Examples:
 
----
+Implement hybrid retrieval combining BM25 + embeddings
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Compare results with simple embedding-only search
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Annotate impact on retrieval accuracy & latency
 
----
+Day 2: Ranking & Augmentation
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Topics:
 
----
+Re-ranking retrieved documents
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Using LLMs for contextual augmentation
 
----
+Importance of top-k vs top-n retrieval
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Dependencies:
+
+Day 1
+
+Code Folder: Code/python/week-23/day-02-ranking-and-augmentation/
+Documentation Link: 06-AI-Foundations/system-design-for-ai.md
+
+Hands-on Examples:
+
+Implement re-ranking using LLM scoring
+
+Experiment with different top-k values and measure quality
+
+Annotate why re-ranking improves generation
+
+Day 3: LLM Fine-Tuning
+
+Topics:
+
+Domain adaptation via fine-tuning
+
+Methods: full model, LoRA, adapters
+
+Cost vs performance trade-offs
+
+Dependencies:
+
+Week 22 (LLM basics, prompt engineering)
+
+Code Folder: Code/python/week-23/day-03-llm-fine-tuning/
+Documentation Link: 06-AI-Foundations/nlp-and-llms.md
+
+Hands-on Examples:
+
+Fine-tune a small LLM on domain-specific text
+
+Test prompt + fine-tuning combination
+
+Document accuracy improvements & latency effects
+
+Day 4: Evaluation Metrics
+
+Topics:
+
+Retrieval metrics: precision, recall, F1
+
+Generation metrics: BLEU, ROUGE, embedding-based similarity
+
+Trade-offs between automated metrics and human evaluation
+
+Dependencies:
+
+Days 1–3
+
+Code Folder: Code/python/week-23/day-04-evaluation-metrics/
+Documentation Link: 06-AI-Foundations/ai-mental-models.md
+
+Hands-on Examples:
+
+Compute retrieval + generation metrics for RAG system
+
+Compare baseline vs fine-tuned LLM performance
+
+Annotate which metrics matter in production
+
+Day 5: Real-World AI System Design
+
+Topics:
+
+End-to-end RAG + LLM deployment
+
+Scaling considerations: latency, throughput, memory
+
+Monitoring & logging for AI systems
+
+Dependencies:
+
+Days 1–4
+
+Code Folder: Code/python/week-23/day-05-real-world-ai-system/
+Documentation Link: 05-System-Design/case-studies/feed-system.md
+
+Hands-on Examples:
+
+Build mini AI service: query → retrieval → generation → response
+
+Implement simple logging & monitoring
+
+Document system trade-offs for production readiness
+
+Day 6: Week Review & Postmortem
+
+Topics:
+
+Consolidate Week 23 AI concepts
+
+Identify weak spots & revisit previous weeks’ concepts
+
+Update code → weekly MD → documentation links
+
+Dependencies:
+
+Days 1–5
+
+Code Folder: Code/python/week-23/day-06-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Examples:
+
+Test end-to-end RAG + fine-tuned LLM system
+
+Document lessons learned, metrics, improvements
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Diagram → Code → Documentation → Postmortem
+
+Commit code + notes at end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 23:
+
+Advanced understanding of RAG, re-ranking, fine-tuning
+
+End-to-end AI system ready for deployment experimentation
+
+Clear linkage of concepts → code → documentation → revision
+
+If you agree, we can proceed to Month 6 –
+
+ChatGPT can make mistakes. Check important info.
