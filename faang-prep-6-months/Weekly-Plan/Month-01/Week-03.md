@@ -8,97 +8,157 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 3 – Month 1: Intro to DSA – Arrays, Strings & Problem Patterns
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
+Start building DSA foundation using Python. Understand arrays and strings thoroughly, learn basic operations, and apply simple problem-solving patterns. Keep memory, performance, and iteration considerations in mind.
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Folder structure for code:
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Code/python/week-03/
+├── day-01-arrays-basics/
+├── day-02-arrays-operations/
+├── day-03-strings-basics/
+├── day-04-strings-operations/
+└── day-05-basic-problem-patterns/
 
----
+Day 1: Arrays – Basics & Visualization
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Topics:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+What is an array (Python list as array analog)
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Indexing, slicing, iteration
 
----
+Understanding contiguous memory concept (why array operations have specific time complexities)
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Dependencies: Python lists + iteration patterns
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Code Folder: Code/python/week-03/day-01-arrays-basics/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/arrays.md
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Hands-on Coding:
 
----
+Create arrays, access elements, slice arrays
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Small exercises: sum of array, find max/min
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Annotate time complexity for each operation
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Day 2: Arrays – Operations & Problem Solving
 
----
+Topics:
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Insertion, deletion, append
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Traversal and iteration patterns
 
----
+Array-based problem patterns: cumulative sum, finding duplicates, reversing arrays
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Dependencies: Arrays basics → iteration patterns → memory consideration
 
----
+Code Folder: Code/python/week-03/day-02-arrays-operations/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/arrays.md
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Hands-on Coding:
 
----
+Reverse an array in place
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Find duplicates and unique elements
+
+Annotate time & space complexity for each solution
+
+Day 3: Strings – Basics & Representation
+
+Topics:
+
+String creation, indexing, slicing
+
+Immutability and memory implications
+
+Common operations: concatenation, repetition, search
+
+Dependencies: Python strings basics → arrays for representation
+
+Code Folder: Code/python/week-03/day-03-strings-basics/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/strings.md
+
+Hands-on Coding:
+
+Reverse a string, check palindrome
+
+Substring search using loops
+
+Discuss time complexity implications
+
+Day 4: Strings – Operations & Problem Patterns
+
+Topics:
+
+Counting characters, frequency mapping
+
+String comparison techniques
+
+Pattern-based problems: anagrams, longest substring without repeating characters
+
+Dependencies: Strings basics → hashing for frequency counts
+
+Code Folder: Code/python/week-03/day-04-strings-operations/
+Documentation Link: 03-Complexity-And-DSA/02-core-data-structures/strings.md
+
+Hands-on Coding:
+
+Count characters in a string using dict
+
+Solve simple anagram problems
+
+Annotate time and space complexity for each approach
+
+Day 5: Basic Problem Patterns
+
+Topics:
+
+Two-pointers pattern (array & string applications)
+
+Sliding window introduction (simple substring problems)
+
+Prefix sum introduction (basic sum queries)
+
+Dependencies: Arrays + Strings + Iteration patterns
+
+Code Folder: Code/python/week-03/day-05-basic-problem-patterns/
+Documentation Link: 03-Complexity-And-DSA/03-problem-patterns/
+
+Hands-on Coding:
+
+Solve 2–3 problems per pattern (arrays and strings)
+
+Annotate why pattern was used and complexity
+
+Link solutions to GitHub for revision
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes per day dedicated to learning/coding
+
+Follow concept → pattern → coding → optimization order
+
+Document code + learnings in GitHub
+
+Revise previous concepts daily (5–10 minutes per day)
+
+Commit and push code + notes at end of each day
+
+✅ Outcome of Week 3:
+
+Arrays and strings fully understood, basic operations mastered
+
+First exposure to DSA problem patterns (two-pointers, sliding window, prefix sum)
+
+Code linked to GitHub week-wise folder
+
+Reinforced Python iteration & memory understanding
+
+If you approve, I can draft Week 4 which will move into hashing, stacks & queues, and deeper problem patterns, following the same day-wise, dependency-tree, code-linked format.
+
+Do you want me to proceed with Week 4 next?
