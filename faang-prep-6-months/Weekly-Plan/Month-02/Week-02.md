@@ -1,4 +1,4 @@
-# Month 02 - Week 02 Plan – FAANG Prep
+# Month 02 - Week 06 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -7,98 +7,169 @@
 - Keep distractions away: phone on silent, no YouTube rabbit holes.
 
 ---
+Week 6 – Month 2: Trees – Basics & Traversals
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Objective:
+Understand tree data structures, node relationships, traversals, and recursive patterns. Connect recursion knowledge from Week 5 to tree structures.
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Folder structure for code:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Code/python/week-06/
+├── day-01-tree-intro/
+├── day-02-binary-tree-construction/
+├── day-03-tree-traversals/
+├── day-04-tree-problems-recursion/
+└── day-05-binary-search-tree-intro/
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Day 1: Tree – Introduction
 
----
+Topics:
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+What is a tree? Nodes, edges, root, leaves
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Tree types: General tree, Binary tree, Binary search tree
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Real-world analogy: File system, organization chart
 
----
+When to use trees vs arrays/linked lists
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Dependencies: Linked lists (Week 5), recursion basics (Week 5)
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Code Folder: Code/python/week-06/day-01-tree-intro/
+Documentation Link: 04-Advanced-DSA/trees/traversal.md
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Hands-on Coding:
 
----
+Create tree node class in Python
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Build a small sample tree manually
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Print tree in basic format
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Day 2: Binary Tree – Construction & Properties
 
----
+Topics:
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Binary tree definition and properties (height, depth, size)
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Insertion & traversal preparation
 
----
+Python representation: Node classes, left/right pointers
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Time/space complexity analysis
 
----
+Dependencies: Day 1 tree intro, Python classes (Week 2)
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Code Folder: Code/python/week-06/day-02-binary-tree-construction/
+Documentation Link: 04-Advanced-DSA/trees/traversal.md
 
----
+Hands-on Coding:
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Build binary tree from array input
+
+Implement helper functions: size, height, leaf count
+
+Annotate recursive calls for height calculation
+
+Day 3: Tree Traversals – DFS & BFS
+
+Topics:
+
+Depth-first traversal: Preorder, Inorder, Postorder
+
+Breadth-first traversal: Level-order traversal
+
+Recursion vs iterative approaches
+
+Use-cases for each traversal
+
+Dependencies: Day 2 binary tree construction, recursion patterns (Week 5)
+
+Code Folder: Code/python/week-06/day-03-tree-traversals/
+Documentation Link: 04-Advanced-DSA/trees/traversal.md
+
+Hands-on Coding:
+
+Implement recursive DFS traversals
+
+Implement BFS using queue
+
+Compare recursive vs iterative approaches
+
+Day 4: Tree Problem Solving Using Recursion
+
+Topics:
+
+Tree recursion patterns:
+
+Root-to-leaf path sum
+
+Max depth / min depth
+
+Node count / leaf count
+
+Connecting recursion patterns to trees
+
+Dependencies: Recursion (Week 5), traversal (Day 3)
+
+Code Folder: Code/python/week-06/day-04-tree-problems-recursion/
+Documentation Link: 04-Advanced-DSA/trees/recursion-model.md
+
+Hands-on Coding:
+
+Solve 3–5 recursive tree problems
+
+Annotate base case, recursion depth, time/space complexity
+
+Prepare notes linking to upcoming BST and tree patterns
+
+Day 5: Binary Search Tree (BST) – Intro & Operations
+
+Topics:
+
+BST properties and use-cases
+
+Insertion, deletion, search
+
+Time complexity: Best, Worst, Average
+
+Real-world analogy: Ordered dictionary / lookup
+
+Dependencies: Binary tree (Days 1–2), recursion (Week 5)
+
+Code Folder: Code/python/week-06/day-05-binary-search-tree-intro/
+Documentation Link: 04-Advanced-DSA/trees/bst.md
+
+Hands-on Coding:
+
+Implement BST insert, search, delete
+
+Test BST with sample inputs
+
+Annotate time/space tradeoffs
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes per day dedicated to learning + coding
+
+Follow concept → pattern → code → optimization → documentation
+
+Revise previous topics 5–10 minutes/day (linked lists, recursion)
+
+Commit code + notes at the end of each day
+
+Maintain links to weekly MD file + documentation for easy navigation
+
+✅ Outcome of Week 6:
+
+Solid understanding of trees and BST fundamentals
+
+Recursion fully applied to tree problems
+
+Linked coding exercises with GitHub folder
+
+Dependencies maintained for Week 7 (Graphs Introduction)
+
+If you approve, I can draft Week 7 – Month 2, which will cover Graphs – BFS/DFS and Patterns, continuing the same day-wise + GitHub linked + dependency tree approach.
+
+Do you want me to proceed with Week 7 next?
