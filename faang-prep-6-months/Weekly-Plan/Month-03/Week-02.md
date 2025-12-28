@@ -1,4 +1,4 @@
-# Month 03 - Week 02 Plan – FAANG Prep
+# Month 03 - Week 10 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -8,97 +8,208 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 10 – Month 3: Advanced DP & Optimization Patterns
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Deepen understanding of Dynamic Programming
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Learn advanced DP patterns and problem-solving techniques
 
----
+Focus on optimization and real-world application
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Prepare for medium-hard FAANG-style DP problems
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Folder structure for code:
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Code/python/week-10/
+├── day-01-advanced-dp-patterns/
+├── day-02-space-optimization/
+├── day-03-mixed-dp-problems/
+├── day-04-dp-on-graphs/
+└── day-05-dp-review-and-postmortem/
 
----
+Day 1: Advanced DP Patterns
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Topics:
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Common DP patterns:
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+1D DP (arrays)
 
----
+2D DP (grid problems)
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+DP with bitmasking
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+DP with multiple states
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Mapping problems to patterns for faster recognition
 
----
+Real-world example: inventory management, resource allocation
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Dependencies:
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Week 9 (DP fundamentals, memoization/tabulation)
 
----
+Arrays & strings (Week 3)
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Code Folder: Code/python/week-10/day-01-advanced-dp-patterns/
+Documentation Link: 04-Advanced-DSA/dynamic-programming/dp-thinking.md
 
----
+Hands-on Coding:
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Solve:
 
----
+Grid unique paths
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Minimum path sum
+
+DP with multiple dimensions
+
+Day 2: Space Optimization in DP
+
+Topics:
+
+Techniques to reduce space in DP problems:
+
+Rolling arrays
+
+In-place modification
+
+State compression (bitmasking)
+
+Trade-offs: readability vs efficiency
+
+Practical use: large-scale problems where memory matters
+
+Dependencies:
+
+Day 1 advanced DP patterns
+
+Arrays (Week 3)
+
+Code Folder: Code/python/week-10/day-02-space-optimization/
+Documentation Link: 04-Advanced-DSA/dynamic-programming/tabulation.md
+
+Hands-on Coding:
+
+Convert classic DP problems to optimized space solutions
+
+Annotate memory usage comparison
+
+Day 3: Mixed DP Problems
+
+Topics:
+
+Mixed problems combining:
+
+Recursion + DP
+
+DP + greedy insights
+
+DP + graph traversal
+
+Recognizing hybrid DP problems in interviews
+
+Debugging DP solutions
+
+Dependencies:
+
+Weeks 7–9 (trees, graphs, DP basics)
+
+Problem-solving strategies (Week 3)
+
+Code Folder: Code/python/week-10/day-03-mixed-dp-problems/
+Documentation Link: 04-Advanced-DSA/dynamic-programming/classic-dp-problems.md
+
+Hands-on Coding:
+
+Solve 2–3 mixed problems from LeetCode FAANG prep list
+
+Document recurrence relations, state choices, and optimizations
+
+Day 4: DP on Graphs
+
+Topics:
+
+DP applications in graphs:
+
+Shortest paths with constraints
+
+DAG-based DP
+
+Network flow basics
+
+Mapping DP to real-world graphs (routing, scheduling)
+
+Dependencies:
+
+Week 8 (graphs)
+
+Week 9–10 (DP fundamentals & patterns)
+
+Code Folder: Code/python/week-10/day-04-dp-on-graphs/
+Documentation Link: 04-Advanced-DSA/dynamic-programming/memoization.md
+
+Hands-on Coding:
+
+Solve:
+
+DAG longest path
+
+Weighted path DP problems
+
+Annotate DP states on graph
+
+Day 5: DP Review and Postmortem
+
+Topics:
+
+Consolidate all DP concepts learned
+
+Post-mortem of mistakes from the week:
+
+Misread constraints
+
+State variable errors
+
+Indexing/edge cases
+
+Strategy for recurring revision
+
+Link week’s code and documentation for review
+
+Dependencies:
+
+Days 1–4 (Advanced DP & optimization patterns)
+
+Code Folder: Code/python/week-10/day-05-dp-review-and-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Coding:
+
+Re-solve 2–3 problems with optimizations applied
+
+Create short notes for recurring DP patterns
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes per day dedicated to learning + coding
+
+Follow concept → pattern → code → optimization → documentation
+
+Revise previous weeks 5–10 minutes/day (trees, graphs, arrays, strings)
+
+Commit code + notes at the end of each day
+
+Maintain links to weekly MD file + documentation for easy navigation
+
+✅ Outcome of Week 10:
+
+Mastery of advanced DP patterns and optimization techniques
+
+Ability to solve medium-hard DP problems confidently
+
+Full linkage of code → concept → weekly documentation
+
+Structured DP notes for review and future reference
