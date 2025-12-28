@@ -19,7 +19,7 @@ You never learn how before understanding what it depends on
 
 🧭 How to Use This Roadmap
 
-This document shows the FULL PICTURE (do not read daily)
+This document shows the FULL PICTURE
 
 Daily learning happens from small slices
 
