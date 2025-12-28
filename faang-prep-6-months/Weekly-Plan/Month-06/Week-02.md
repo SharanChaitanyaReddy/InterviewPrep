@@ -1,4 +1,4 @@
-# Month 06 - Week 02 Plan – FAANG Prep
+# Month 06 - Week 22 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -8,97 +8,188 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 22 – Month 6: RAG, LLM Prompting & ML System Design
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Understand RAG workflows and prompt engineering for LLMs
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Learn to design ML/AI systems in real-world scenarios
 
----
+Hands-on coding with retrieval + LLM pipelines
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Folder structure for code / examples:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Code/python/week-22/
+├── day-01-rag-intro/
+├── day-02-prompt-engineering/
+├── day-03-embedding-retrieval/
+├── day-04-llm-integration/
+├── day-05-ml-system-design/
+└── day-06-week-review-postmortem/
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Day 1: RAG Introduction
 
----
+Topics:
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+What is Retrieval-Augmented Generation (RAG)
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Why RAG improves LLM outputs
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Components: Retrieval, Indexing, LLM generation
 
----
+Dependencies:
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Week 21 (LLM basics, embeddings)
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Code Folder: Code/python/week-22/day-01-rag-intro/
+Documentation Link: 06-AI-Foundations/system-design-for-ai.md
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Hands-on Examples:
 
----
+Implement basic document retrieval using Python
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Index small corpus & retrieve top-k relevant docs
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Annotate RAG flow: retrieval → embedding → generation
 
----
+Day 2: Prompt Engineering
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Topics:
 
----
+Basics of prompt design for LLMs
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Zero-shot, few-shot, chain-of-thought prompting
 
----
+How prompts influence output quality
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Dependencies:
+
+Day 1
+
+Code Folder: Code/python/week-22/day-02-prompt-engineering/
+Documentation Link: 06-AI-Foundations/nlp-and-llms.md
+
+Hands-on Examples:
+
+Experiment with different prompts in HuggingFace or OpenAI API
+
+Measure effect of prompt variations on outputs
+
+Annotate when to use zero-shot vs few-shot
+
+Day 3: Embedding & Retrieval Pipelines
+
+Topics:
+
+Advanced embeddings for RAG
+
+Vector stores & similarity search
+
+Integrating retrieval into LLMs
+
+Dependencies:
+
+Day 1 & Day 2
+
+Code Folder: Code/python/week-22/day-03-embedding-retrieval/
+Documentation Link: 06-AI-Foundations/nlp-and-llms.md
+
+Hands-on Examples:
+
+Use FAISS or Chroma for embedding storage & search
+
+Retrieve relevant documents for a query and pass to LLM
+
+Annotate why embeddings improve retrieval quality
+
+Day 4: LLM Integration
+
+Topics:
+
+Integrating LLM with retrieval pipeline
+
+Generating answers from retrieved context
+
+Error handling & prompt tuning
+
+Dependencies:
+
+Day 3
+
+Code Folder: Code/python/week-22/day-04-llm-integration/
+Documentation Link: 06-AI-Foundations/system-design-for-ai.md
+
+Hands-on Examples:
+
+Build mini RAG system: query → retrieval → LLM output
+
+Test with multiple queries & tune prompts
+
+Annotate end-to-end system flow
+
+Day 5: ML System Design
+
+Topics:
+
+Designing AI/ML systems for scale
+
+Components: data pipelines, training, inference
+
+Real-world constraints: latency, throughput, cost
+
+Dependencies:
+
+Day 1–4
+
+Code Folder: Code/python/week-22/day-05-ml-system-design/
+Documentation Link: 05-System-Design/fundamentals.md
+
+Hands-on Examples:
+
+Sketch ML system architecture diagram
+
+Annotate trade-offs: batch vs real-time inference
+
+Document how RAG/LLM integrates into system design
+
+Day 6: Week Review & Postmortem
+
+Topics:
+
+Consolidate Week 22 AI concepts
+
+Identify weak spots & revisit previous week’s concepts
+
+Update code → weekly MD → documentation links
+
+Dependencies:
+
+Days 1–5
+
+Code Folder: Code/python/week-22/day-06-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Examples:
+
+Implement mini end-to-end RAG demo
+
+Document concept → code → application mapping
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Diagram → Code → Documentation → Postmortem
+
+Commit code + notes at end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 22:
+
+Strong foundation in RAG, prompt engineering, and ML system design
+
+Hands-on coding with Python for retrieval + LLM pipelines
+
+Clear linkage of concepts → code → documentation → revision
