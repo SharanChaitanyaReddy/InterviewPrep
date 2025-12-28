@@ -1,104 +1,140 @@
-# Month 01 - Week 01 Plan – FAANG Prep
+Week 1 – Month 1: Foundations & Python Setup
 
-## 1. Motivation & Focus Reminder
-- This 90-minute daily preparation is **non-negotiable**.
-- Remember why you are doing this: building skills for **FAANG / top MNC**, mastering **DSA**, **system design**, and **AI fundamentals**.
-- Focus on **small wins every day**, not the entire roadmap at once.
-- Keep distractions away: phone on silent, no YouTube rabbit holes.
+Objective:
+Start with Python environment setup, basic computing foundations, practical math, and problem-solving mindset. This week establishes the groundwork for DSA, Python coding, and optimization thinking.
 
----
+Folder structure for code:
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Code/python/week-01/
+├── day-01-setup/
+├── day-02-computers/
+├── day-03-practical-math-counting/
+├── day-04-practical-math-powers-mod/
+├── day-05-problem-thinking/
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Day 1: Python Setup & Tooling
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Topics:
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Install Python (Windows)
 
----
+Configure VS Code with Python extensions
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Git & GitHub setup
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Create virtual environment
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Project folder structure
 
----
+Best practices (PEP8, virtual environments, documentation)
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Code Folder: Code/python/week-01/day-01-setup/
+Documentation Link: 00-Setup-And-Rules/tooling-setup.md
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Outcome: Ready-to-code environment, GitHub repo initialized.
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Day 2: How Computers Work
 
----
+Topics:
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+CPU, Memory, Cache overview (impact on algorithm performance)
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Stack vs Heap memory (recursion, allocation)
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Why programs slow down (bottlenecks, cache misses, inefficient loops)
 
----
+Dependencies: Hardware understanding → Optimization mindset → Problem-solving
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Code Folder: Code/python/week-01/day-02-computers/
+Documentation Link: 01-Foundations/01-how-computers-work/
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Day 3: Practical Math – Counting & Growth
 
----
+Topics:
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Counting basics (addition, subtraction, combinations)
 
----
+Multiplication & division (repetition, partitioning)
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Big O intuition from counting & growth
 
----
+Dependencies: Math → Complexity → Arrays/Loops in coding
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Code Folder: Code/python/week-01/day-03-practical-math-counting/
+Documentation Link: 01-Foundations/02-practical-math/counting-and-growth.md
+
+Hands-on Coding:
+
+Implement simple loops counting elements
+
+Calculate growth patterns with small arrays/lists
+
+Day 4: Practical Math – Powers, Logarithms & Modular Arithmetic
+
+Topics:
+
+Powers & exponents (impact on loops, recursion depth)
+
+Logarithms (binary search, halving strategies)
+
+Modular arithmetic (hashing, cyclic problems)
+
+Dependencies: Day 3 → Complexity understanding
+
+Code Folder: Code/python/week-01/day-04-practical-math-powers-mod/
+Documentation Link:
+
+01-Foundations/02-practical-math/powers-logarithms.md
+
+01-Foundations/02-practical-math/mod-arithmetic.md
+
+Hands-on Coding:
+
+Implement power functions, modular sum examples
+
+Compare iterative vs recursive solutions
+
+Day 5: Problem Thinking & Optimization Mindset
+
+Topics:
+
+Brute-force thinking (start simple, correctness first)
+
+Constraints-first approach (understand input, memory, time limits)
+
+Optimization mindset (identify patterns, reduce complexity)
+
+Dependencies: Days 2–4 → DSA fundamentals
+
+Code Folder: Code/python/week-01/day-05-problem-thinking/
+Documentation Link: 01-Foundations/03-problem-thinking/
+
+Hands-on Coding:
+
+Solve small brute-force examples in Python
+
+Annotate code explaining why, when, and how each step is applied
+
+Daily Execution Rules (Non-Negotiable)
+
+Minimum 90 minutes per day dedicated to learning/coding
+
+Follow concept → pattern → coding → optimization order
+
+Document code + learnings in GitHub
+
+Revise previous concepts daily (5–10 minutes per day)
+
+Commit and push code + notes at end of each day
+
+✅ Outcome of Week 1:
+
+Python environment ready
+
+Foundational understanding of hardware and math for algorithms
+
+Basic problem-solving mindset established
+
+First Python coding exercises linked to weekly folder
+
+GitHub repo workflow set up
