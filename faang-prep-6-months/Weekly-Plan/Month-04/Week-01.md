@@ -1,4 +1,4 @@
-# Month 04 - Week 01 Plan – FAANG Prep
+# Month 04 - Week 13 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
