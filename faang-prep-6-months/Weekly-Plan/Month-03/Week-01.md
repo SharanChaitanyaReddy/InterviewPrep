@@ -1,4 +1,4 @@
-# Month 03 - Week 01 Plan – FAANG Prep
+# Month 03 - Week 09 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -8,97 +8,200 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 9 – Month 3: Dynamic Programming Basics
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Understand the fundamentals of Dynamic Programming (DP)
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Learn memoization vs tabulation
 
----
+Start solving classic DP problems step-by-step
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Link DP thinking to real-world optimization problems
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Folder structure for code:
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Code/python/week-09/
+├── day-01-dp-introduction/
+├── day-02-memoization-patterns/
+├── day-03-tabulation-patterns/
+├── day-04-classic-dp-problems/
+└── day-05-dp-problem-solving-strategy/
 
----
+Day 1: Introduction to Dynamic Programming
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Topics:
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Concept: Overlapping subproblems & optimal substructure
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Difference between recursion, memoization, and tabulation
 
----
+Real-world examples: coin change, inventory management, route optimization
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Recognize when DP is applicable
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Dependencies:
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Recursion (Week 6 trees)
 
----
+Problem-solving patterns (Week 3–8)
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Code Folder: Code/python/week-09/day-01-dp-introduction/
+Documentation Link: 04-Advanced-DSA/dynamic-programming/dp-thinking.md
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Hands-on Coding:
 
----
+Convert simple recursive Fibonacci to DP using memoization
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Track recursion tree and overlapping subproblems
 
----
+Day 2: Memoization Patterns
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Topics:
 
----
+Top-down DP (memoization) approach
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Choosing the right state variables
+
+Storing computed values for reuse
+
+Avoid recomputation, improve time complexity
+
+Dependencies:
+
+Day 1 DP introduction
+
+Recursion depth (Week 2)
+
+Code Folder: Code/python/week-09/day-02-memoization-patterns/
+Documentation Link: 04-Advanced-DSA/dynamic-programming/memoization.md
+
+Hands-on Coding:
+
+Solve:
+
+Fibonacci / Tribonacci
+
+Climbing stairs problem
+
+Min-cost path problem
+
+Annotate DP table states
+
+Day 3: Tabulation Patterns
+
+Topics:
+
+Bottom-up DP (tabulation) approach
+
+Iterative table filling
+
+Space optimization techniques
+
+Trade-offs: memory vs readability
+
+Dependencies:
+
+Memoization patterns (Day 2)
+
+Arrays (Week 3)
+
+Code Folder: Code/python/week-09/day-03-tabulation-patterns/
+Documentation Link: 04-Advanced-DSA/dynamic-programming/tabulation.md
+
+Hands-on Coding:
+
+Convert memoized problems from Day 2 to tabulation
+
+Practice 1D and 2D DP tables
+
+Day 4: Classic DP Problems
+
+Topics:
+
+Knapsack 0/1 problem
+
+Coin change (min coins and ways)
+
+Longest increasing subsequence
+
+Real-world mapping: budgeting, scheduling, inventory management
+
+Dependencies:
+
+Tabulation & memoization (Days 2–3)
+
+Arrays/strings (Week 3)
+
+Code Folder: Code/python/week-09/day-04-classic-dp-problems/
+Documentation Link: 04-Advanced-DSA/dynamic-programming/classic-dp-problems.md
+
+Hands-on Coding:
+
+Solve each problem step by step
+
+Annotate states, recurrence relation, and optimization
+
+Track time & space complexity
+
+Day 5: DP Problem-Solving Strategy
+
+Topics:
+
+Step-by-step approach to identify DP problems:
+
+Identify subproblems
+
+Define state variables
+
+Write recurrence relation
+
+Choose top-down or bottom-up
+
+Optimize space if possible
+
+Common mistakes and debugging DP solutions
+
+Dependencies:
+
+Days 1–4 DP concepts
+
+Problem-solving mindset (Week 3–8)
+
+Code Folder: Code/python/week-09/day-05-dp-problem-solving-strategy/
+Documentation Link: 04-Advanced-DSA/dynamic-programming/dp-thinking.md
+
+Hands-on Coding:
+
+Pick 2 mixed problems (from LeetCode / FAANG prep list)
+
+Annotate step-by-step solution
+
+Write post-mortem notes
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes per day dedicated to learning + coding
+
+Follow concept → pattern → code → optimization → documentation
+
+Revise previous topics 5–10 minutes/day (Weeks 7–8 graphs, Week 6 trees)
+
+Commit code + notes at the end of each day
+
+Maintain links to weekly MD file + documentation for easy navigation
+
+✅ Outcome of Week 9:
+
+Strong foundation in DP (memoization & tabulation)
+
+Able to solve classic DP problems
+
+DP problem-solving strategy mastered for future weeks
+
+Coding exercises linked with documentation & GitHub
+
+I can now continue with Week 10 – Advanced DP & Optimization Patterns, keeping the same structured approach.
+
+Do you want me to draft Week 10 next?
