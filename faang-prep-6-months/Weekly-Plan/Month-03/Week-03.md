@@ -1,4 +1,4 @@
-# Month 03 - Week 03 Plan – FAANG Prep
+# Month 03 - Week 11 Plan – FAANG Prep
 
 ## 1. Motivation & Focus Reminder
 - This 90-minute daily preparation is **non-negotiable**.
@@ -8,97 +8,188 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 11 – Month 3: Greedy Algorithms & Backtracking
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Understand Greedy Algorithms and Backtracking patterns
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Learn when to apply greedy vs DP vs backtracking
 
----
+Solve problems efficiently with optimal choices and pruning
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Folder structure for code:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` ��� Purpose
+Code/python/week-11/
+├── day-01-greedy-intro/
+├── day-02-greedy-problems/
+├── day-03-backtracking-intro/
+├── day-04-backtracking-problems/
+└── day-05-week-review-postmortem/
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Day 1: Introduction to Greedy Algorithms
 
----
+Topics:
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Greedy algorithm principles: local optimum → global optimum
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Recognizing greedy-friendly problems
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Trade-offs vs DP: when greedy works and when it fails
 
----
+Real-world examples: interval scheduling, minimum spanning tree
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Dependencies:
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Arrays & sorting (Weeks 3–4)
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Problem-solving strategies (Week 3)
 
----
+Code Folder: Code/python/week-11/day-01-greedy-intro/
+Documentation Link: 04-Advanced-DSA/greedy-and-backtracking.md
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Hands-on Coding:
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Solve:
 
----
+Activity selection problem
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Fractional knapsack
 
----
+Day 2: Greedy Problems
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Topics:
 
----
+Common greedy patterns:
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Interval/meeting problems
+
+Minimum cost selection
+
+Prefix/suffix optimizations
+
+Recognize constraints that make greedy valid
+
+Annotate decision-making process
+
+Dependencies:
+
+Day 1 (greedy basics)
+
+Arrays, sorting, prefix sums
+
+Code Folder: Code/python/week-11/day-02-greedy-problems/
+Documentation Link: 04-Advanced-DSA/greedy-and-backtracking.md
+
+Hands-on Coding:
+
+Solve 2–3 classic greedy problems
+
+Write explanation notes for each problem on GitHub
+
+Day 3: Introduction to Backtracking
+
+Topics:
+
+Concept of backtracking: explore → choose → undo
+
+Difference from recursion & DP
+
+Recognizing backtracking problems: subsets, permutations, N-Queens
+
+Pruning and optimization techniques
+
+Dependencies:
+
+Recursion fundamentals (Week 7)
+
+Problem-solving strategies (Week 3)
+
+Code Folder: Code/python/week-11/day-03-backtracking-intro/
+Documentation Link: 04-Advanced-DSA/greedy-and-backtracking.md
+
+Hands-on Coding:
+
+Implement:
+
+Subsets generation
+
+Permutations generation
+
+Day 4: Backtracking Problems
+
+Topics:
+
+Classic backtracking problems:
+
+N-Queens
+
+Sudoku solver
+
+Word search on grids
+
+Optimization: pruning, early termination
+
+Trade-offs: speed vs readability
+
+Dependencies:
+
+Day 3 (backtracking intro)
+
+2D arrays and grid traversal (Week 8)
+
+Code Folder: Code/python/week-11/day-04-backtracking-problems/
+Documentation Link: 04-Advanced-DSA/greedy-and-backtracking.md
+
+Hands-on Coding:
+
+Solve 2–3 classic backtracking problems
+
+Annotate decision tree and pruning logic
+
+Day 5: Week Review & Postmortem
+
+Topics:
+
+Consolidate greedy and backtracking concepts
+
+Analyze mistakes from the week
+
+Highlight key patterns and dependencies
+
+Link all code + documentation for review
+
+Dependencies:
+
+Days 1–4 (Greedy & Backtracking concepts and coding)
+
+Code Folder: Code/python/week-11/day-05-week-review-postmortem/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Coding:
+
+Re-solve 1–2 challenging problems from the week
+
+Maintain short notes + GitHub references for future review
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes per day dedicated to learning + coding
+
+Follow concept → pattern → code → optimization → documentation
+
+Revise previous weeks 5–10 minutes/day (arrays, strings, DP, graphs)
+
+Commit code + notes at the end of each day
+
+Maintain links to weekly MD file + documentation for easy navigation
+
+✅ Outcome of Week 11:
+
+Mastery of greedy patterns and backtracking problems
+
+Ability to choose correct approach for each problem
+
+Structured code + documentation + weekly notes for review
+
+Clear linkage of code → concept → weekly documentation → revision
