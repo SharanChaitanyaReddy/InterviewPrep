@@ -1,25 +1,13 @@
-# Month 05 - Week 18 Plan – FAANG Prep
+# Week 18 – Month 5: Advanced Dynamic Programming
 
-## 1. Motivation & Focus Reminder
-- This 90-minute daily preparation is **non-negotiable**.
-- Remember why you are doing this: building skills for **FAANG / top MNC**, mastering **DSA**, **system design**, and **AI fundamentals**.
-- Focus on **small wins every day**, not the entire roadmap at once.
-- Keep distractions away: phone on silent, no YouTube rabbit holes.
+**Objective:**  
+Master advanced DP problems and optimization patterns. Learn memoization, tabulation, and state compression. Develop ability to recognize DP patterns in new problems.
 
 ---
 
-Week 18 – Month 5: Advanced Dynamic Programming
+## Folder Structure for Code
 
-Objective:
-
-Master advanced DP problems and optimization patterns
-
-Learn memoization, tabulation, and state compression
-
-Develop ability to recognize DP patterns in new problems
-
-Folder structure for code:
-
+```
 Code/python/week-18/
 ├── day-01-dp-review-and-patterns/
 ├── day-02-memoization/
@@ -27,175 +15,131 @@ Code/python/week-18/
 ├── day-04-advanced-problems-1/
 ├── day-05-advanced-problems-2/
 └── day-06-week-review-postmortem/
+```
 
-Day 1: Dynamic Programming – Review & Patterns
+---
 
-Topics:
+## Day 1: Dynamic Programming – Review & Patterns
 
-Recap basic DP concepts (Weeks 13–16)
+**Topics:**
+- Recap basic DP concepts (Weeks 13–16)  
+- Recognize common DP problem patterns:  
+  - 0/1 Knapsack  
+  - Longest Common Subsequence (LCS)  
+  - Matrix Path Problems  
+- State, choice, and recurrence relation  
 
-Recognize common DP problem patterns:
+**Dependencies:** Recursion, memoization (Weeks 13–16)  
+**Code Folder:** `Code/python/week-18/day-01-dp-review-and-patterns/`  
+**Documentation Link:** `04-Advanced-DSA/dynamic-programming/dp-thinking.md`  
 
-0/1 Knapsack
+**Hands-on Coding:**
+- Implement basic DP templates  
+- Annotate state definition, transition, base cases
 
-Longest Common Subsequence (LCS)
+---
 
-Matrix Path Problems
+## Day 2: Memoization
 
-State, choice, and recurrence relation
+**Topics:**
+- Memoization technique to avoid recomputation  
+- Top-down approach with recursion  
+- Identify overlapping subproblems  
+- Complexity analysis: Time & Space  
 
-Dependencies:
+**Dependencies:** Day 1 (DP Patterns)  
+**Code Folder:** `Code/python/week-18/day-02-memoization/`  
+**Documentation Link:** `04-Advanced-DSA/dynamic-programming/memoization.md`  
 
-Recursion, memoization (Weeks 13–16)
+**Hands-on Coding:**
+- Solve 3–4 classic DP problems with memoization  
+- Annotate recursive calls, caching, and optimization
 
-Code Folder: Code/python/week-18/day-01-dp-review-and-patterns/
-Documentation Link: 04-Advanced-DSA/dynamic-programming/dp-thinking.md
+---
 
-Hands-on Coding:
+## Day 3: Tabulation
 
-Implement basic DP templates
+**Topics:**
+- Bottom-up DP approach  
+- Use of DP tables and iterative computation  
+- Space optimization techniques: rolling array, 1D optimization  
 
-Annotate state definition, transition, base cases
+**Dependencies:** Day 2 (Memoization)  
+**Code Folder:** `Code/python/week-18/day-03-tabulation/`  
+**Documentation Link:** `04-Advanced-DSA/dynamic-programming/tabulation.md`  
 
-Day 2: Memoization
+**Hands-on Coding:**
+- Convert memoized solutions to tabulation  
+- Annotate space vs time trade-offs
 
-Topics:
+---
 
-Memoization technique to avoid recomputation
+## Day 4: Advanced Problems – Part 1
 
-Top-down approach with recursion
+**Topics:**
+- Solve medium-to-hard DP problems:  
+  - Minimum Path Sum  
+  - House Robber / Robber II  
+  - Coin Change Variants  
 
-Identify overlapping subproblems
+**Dependencies:** Days 1–3  
+**Code Folder:** `Code/python/week-18/day-04-advanced-problems-1/`  
+**Documentation Link:** `04-Advanced-DSA/dynamic-programming/advanced-problems.md`  
 
-Complexity analysis: Time & Space
+**Hands-on Coding:**
+- Solve 3–4 problems  
+- Annotate state definition, recurrence, edge cases
 
-Dependencies:
+---
 
-Day 1 (DP Patterns)
+## Day 5: Advanced Problems – Part 2
 
-Code Folder: Code/python/week-18/day-02-memoization/
-Documentation Link: 04-Advanced-DSA/dynamic-programming/memoization.md
+**Topics:**
+- Solve hard DP problems:  
+  - Longest Increasing Subsequence (LIS)  
+  - Edit Distance  
+  - Partition / Subset Sum problems  
 
-Hands-on Coding:
+**Dependencies:** Day 4 (Advanced Problems 1)  
+**Code Folder:** `Code/python/week-18/day-05-advanced-problems-2/`  
+**Documentation Link:** `04-Advanced-DSA/dynamic-programming/advanced-problems.md`  
 
-Solve 3–4 classic DP problems with memoization
+**Hands-on Coding:**
+- Solve 2–3 hard DP problems  
+- Annotate space optimization, edge cases, and time complexity
 
-Annotate recursive calls, caching, and optimization
+---
 
-Day 3: Tabulation
+## Day 6: Week Review & Postmortem
 
-Topics:
+**Topics:**
+- Consolidate Week 18 topics: Advanced DP  
+- Identify weak spots & create revision notes  
+- Link code → weekly MD → documentation  
 
-Bottom-up DP approach
+**Dependencies:** Days 1–5  
+**Code Folder:** `Code/python/week-18/day-06-week-review-postmortem/`  
+**Documentation Link:** `Revision/weekly-review.md`  
 
-Use of DP tables and iterative computation
+**Hands-on Coding:**
+- Solve 1–2 review problems  
+- Document edge cases, constraints, and key learnings
 
-Space optimization techniques: rolling array, 1D optimization
+---
 
-Dependencies:
+## Daily Execution Rules (Non-Negotiable)
 
-Day 2 (Memoization)
+- 90 minutes/day minimum  
+- Concept → Pattern → Code → Optimization → Documentation  
+- Revise previous weeks 5–10 minutes/day  
+- Commit code + notes end of each day  
+- Maintain links to weekly MD + documentation
 
-Code Folder: Code/python/week-18/day-03-tabulation/
-Documentation Link: 04-Advanced-DSA/dynamic-programming/tabulation.md
+---
 
-Hands-on Coding:
+## ✅ Outcome of Week 18
 
-Convert memoized solutions to tabulation
-
-Annotate space vs time trade-offs
-
-Day 4: Advanced Problems – Part 1
-
-Topics:
-
-Solve medium-to-hard DP problems:
-
-Minimum Path Sum
-
-House Robber / Robber II
-
-Coin Change Variants
-
-Dependencies:
-
-Days 1–3
-
-Code Folder: Code/python/week-18/day-04-advanced-problems-1/
-Documentation Link: 04-Advanced-DSA/dynamic-programming/advanced-problems.md
-
-Hands-on Coding:
-
-Solve 3–4 problems
-
-Annotate state definition, recurrence, edge cases
-
-Day 5: Advanced Problems – Part 2
-
-Topics:
-
-Solve hard DP problems:
-
-Longest Increasing Subsequence (LIS)
-
-Edit Distance
-
-Partition/Subset Sum problems
-
-Dependencies:
-
-Day 4 (Advanced Problems 1)
-
-Code Folder: Code/python/week-18/day-05-advanced-problems-2/
-Documentation Link: 04-Advanced-DSA/dynamic-programming/advanced-problems.md
-
-Hands-on Coding:
-
-Solve 2–3 hard DP problems
-
-Annotate space optimization, edge cases, and time complexity
-
-Day 6: Week Review & Postmortem
-
-Topics:
-
-Consolidate Week 18 topics: Advanced DP
-
-Identify weak spots & create revision notes
-
-Link code → weekly MD → documentation
-
-Dependencies:
-
-Days 1–5
-
-Code Folder: Code/python/week-18/day-06-week-review-postmortem/
-Documentation Link: Revision/weekly-review.md
-
-Hands-on Coding:
-
-Solve 1–2 review problems
-
-Document edge cases, constraints, and key learnings
-
-Daily Execution Rules (Non-Negotiable)
-
-90 minutes/day minimum
-
-Concept → Pattern → Code → Optimization → Documentation
-
-Revise previous weeks 5–10 minutes/day
-
-Commit code + notes end of each day
-
-Maintain links to weekly MD + documentation
-
-✅ Outcome of Week 18:
-
-Strong grasp of advanced DP patterns
-
-Able to recognize memoization vs tabulation
-
-Solve medium-to-hard problems efficiently
-
-Clear linkage of code → documentation → revision notes
+- Strong grasp of advanced DP patterns  
+- Able to recognize memoization vs tabulation  
+- Solve medium-to-hard problems efficiently  
+- Clear linkage of code → documentation → revision notes
