@@ -170,6 +170,3 @@ Linked coding exercises with GitHub folder
 
 Dependencies maintained for Week 7 (Graphs Introduction)
 
-If you approve, I can draft Week 7 – Month 2, which will cover Graphs – BFS/DFS and Patterns, continuing the same day-wise + GitHub linked + dependency tree approach.
-
-Do you want me to proceed with Week 7 next?
