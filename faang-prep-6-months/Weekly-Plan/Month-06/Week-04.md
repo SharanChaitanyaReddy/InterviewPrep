@@ -8,97 +8,192 @@
 
 ---
 
-## 2. Concept Learning (Immutable Reference)
-> Read the concept docs first before coding. Include why/how/when for each topic.
+Week 24 – Month 6: Consolidation, Mock Interviews & Final Review
 
-**Reference Links:**
-- Foundations / Python / DSA / AI concepts: `../01-Foundations/`, `../02-Python-Core/`, `../03-Complexity-And-DSA/`, etc.
+Objective:
 
-**This Week’s Topics:**
-- Concept 1: [Link to md file]
-- Concept 2: [Link to md file]
-- Concept 3: [Link to md file]
-*(Adjust based on weekly roadmap)*
+Consolidate all DSA, Python, System Design, and AI concepts
 
-**Notes to take:**
-- Write key points in your **weekly notes file**.
-- Include **dependencies**: which topics rely on others.
-- Real-world attachment: why this concept matters outside coding.
+Practice mock interviews (coding, system design, behavioral)
 
----
+Ensure all code + documentation + revision links are complete and connected
 
-## 3. Hands-On Coding (Code Folder)
-> All code for this week goes here: `Code/python/<category>/`
+Folder structure for code / examples:
 
-**Tasks:**
-- Code 1: `<filename.py>` – Purpose, what you’re simulating, expected outcome
-- Code 2: `<filename.py>` – Purpose
-- Code 3: `<filename.py>` – Purpose
+Code/python/week-24/
+├── day-01-final-dsa-revision/
+├── day-02-final-python-revision/
+├── day-03-system-design-revision/
+├── day-04-ai-foundations-revision/
+├── day-05-mock-interviews/
+└── day-06-week-review-postmortem/
 
-**Rules:**
-- Every concept must produce **at least one code example**.
-- Test code with edge cases wherever possible.
-- Comment your code to explain **why/how/when**.
+Day 1: Final DSA Revision
 
----
+Topics:
 
-## 4. Problem Solving / Coding Practice
-**Reference:** `Coding-Practice/weekly-problem-plan.md`
+Arrays, Strings, Hashing, Stacks, Queues, Linked Lists
 
-**Tasks for the week:**
-- Arrays / Strings / Hashing / Stacks-Queues / Linked Lists / Trees / Graphs / DP / Greedy / Backtracking  
-*(Include weekly quota: e.g., 10–15 problems per topic)*
+Problem patterns: Two Pointers, Sliding Window, Prefix Sum, Binary Search
 
-**Timed Practice:**
-- `Coding-Practice/timed-sessions.md`  
-- Simulate **90-minutes, 2–3 problems**  
-- Post-mortem after each session: log mistakes and root causes in `Coding-Practice/post-mortems.md`
+Trees, Graphs, DP, Greedy, Backtracking
 
----
+Dependencies:
 
-## 5. Revision
-**Daily:** `Revision/daily-recall.md` – Review **previous day’s concepts & code** (5–10 mins)
+Weeks 1–22
 
-**Weekly:** `Revision/weekly-review.md`  
-- Check weak spots  
-- Add notes for missed concepts  
-- Update progress tracker
+Code Folder: Code/python/week-24/day-01-final-dsa-revision/
+Documentation Link: Revision/weekly-review.md
 
-**Monthly:** `Revision/monthly-summary.md`  
-- Track overall progress  
-- Adjust quotas / difficulty if needed
+Hands-on Examples:
 
----
+Re-solve previously solved problems for retention
 
-## 6. Behavioral Prep (Optional, 1–2 sessions/week)
-**Reference:** `Behavioral/story-bank.md` / `Behavioral/weekly-practice.md`
+Annotate time/space complexity & edge cases
 
-**Tasks:**
-- Pick 1–2 STAR stories  
-- Practice answering “Tell me about a time…” out loud  
-- Record yourself or do with a partner
+Update weak-spots.md for topics needing extra focus
 
----
+Day 2: Final Python Revision
 
-## 7. Daily Execution Rules
-- **90 minutes per day**, uninterrupted
-- Concept → Code → Problems → Mini revision
-- Follow your **ritual** before starting (coffee, notebook, timer)
-- Track completion in a **progress tracker** file
+Topics:
 
----
+Language basics, Control Flow, Functions
 
-## 8. Progress Tracker (Optional section)
-- ✅ Concepts learned
-- ✅ Code examples completed
-- ✅ Problems solved
-- ✅ Revision done
-- ✅ Behavioral prep
+Memory management, recursion, time vs space trade-offs
 
----
+Python usage in DSA: Lists, Dicts, Sets, Iteration Patterns, Pitfalls
 
-## Notes / Reflection (Optional)
-- Any concept still unclear
-- Edge cases missed
-- Ideas for improvement
-- Motivational note for next day
+Dependencies:
+
+Weeks 1–6
+
+Code Folder: Code/python/week-24/day-02-final-python-revision/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Examples:
+
+Write short scripts to consolidate learning
+
+Annotate why and when to use each data structure/functionality
+
+Connect Python usage to DSA problems
+
+Day 3: System Design Revision
+
+Topics:
+
+Scalability, Latency, Throughput, Consistency
+
+Components: Databases, Caching, Queues
+
+Case studies: URL Shortener, Rate Limiter, Feed System
+
+Dependencies:
+
+Weeks 16–20
+
+Code Folder: Code/python/week-24/day-03-system-design-revision/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Examples:
+
+Revisit case-study designs
+
+Draw diagrams linking components & trade-offs
+
+Annotate design decisions & real-world considerations
+
+Day 4: AI Foundations Revision
+
+Topics:
+
+AI Mental Models, ML vs DL, NLP & LLMs
+
+RAG, Fine-tuning, Real-world AI system design
+
+Dependencies:
+
+Weeks 21–23
+
+Code Folder: Code/python/week-24/day-04-ai-foundations-revision/
+Documentation Link: Revision/weekly-review.md
+
+Hands-on Examples:
+
+Test RAG + LLM system built in Week 23
+
+Annotate lessons learned, performance metrics, and optimizations
+
+Day 5: Mock Interviews
+
+Topics:
+
+Coding: 2–3 problems in 90-minute timed session
+
+System Design: End-to-end scenario discussion
+
+Behavioral: STAR questions and story mapping
+
+Dependencies:
+
+All prior weeks
+
+Code Folder: Code/python/week-24/day-05-mock-interviews/
+Documentation Link:
+
+Behavioral/weekly-practice.md
+
+Revision/weekly-review.md
+
+Hands-on Examples:
+
+Record mock interview sessions
+
+Annotate mistakes, clarifications, and learnings
+
+Map coding + design + behavioral performance
+
+Day 6: Week & Program Review Postmortem
+
+Topics:
+
+Consolidate 6-month prep
+
+Update weekly/monthly summaries, weak spots, postmortems
+
+Final GitHub repo cleanup & linking
+
+Dependencies:
+
+Days 1–5
+
+Code Folder: Code/python/week-24/day-06-week-review-postmortem/
+Documentation Link: Revision/monthly-summary.md
+
+Hands-on Examples:
+
+Test end-to-end readiness
+
+Annotate overall program effectiveness, key takeaways
+
+Prepare personal checklist for FAANG interviews
+
+Daily Execution Rules (Non-Negotiable)
+
+90 minutes/day minimum
+
+Concept → Diagram → Code → Documentation → Postmortem
+
+Commit code + notes at end of each day
+
+Maintain links to weekly MD + documentation
+
+✅ Outcome of Week 24 / Program Completion:
+
+Full DSA + Python + System Design + AI foundation coverage
+
+End-to-end mock interview experience
+
+Comprehensive GitHub repo with code, notes, revisions, and postmortems
+
+Ready for FAANG interviews with confidence and clarity
