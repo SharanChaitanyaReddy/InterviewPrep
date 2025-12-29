@@ -46,7 +46,7 @@ Ready-to-code environment, GitHub repo initialized.
     **Documentation Link:** `01-Foundations/cpu-memory-cache.md` 
 - Operators & Expressions
     **Dependencies:** Hardware understanding → Python basics  
-    **Code Folder:** `Code/python/week-01/memory_play.py`  
+    **Code Folder:** `Code/python/week-01/operators-expressions.py`  
     **Documentation Link:** `01-Foundations/operators-Expressions.md/` 
 - Input/Output and Type Conversion
 - Stack vs Heap memory (recursion, allocation)
