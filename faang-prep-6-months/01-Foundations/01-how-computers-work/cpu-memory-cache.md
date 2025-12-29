@@ -139,7 +139,6 @@ Immutable objects (like integers, strings, tuples) mean changing one variable cr
 
 This understanding is critical to avoid confusion with mutables, which we’ll see in Experiment 3.
 
-If you want, we can move to Experiment 2: Immutable Change and I’ll quiz you in the same way, so we can write a clean, verified note for your documentation.
 
 Experiment 2: Immutable Change
 a = 10
