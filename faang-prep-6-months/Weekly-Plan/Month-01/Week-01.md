@@ -45,8 +45,8 @@ Ready-to-code environment, GitHub repo initialized.
 - Why programs slow down (bottlenecks, cache misses, inefficient loops)
 
 **Dependencies:** Hardware understanding → Optimization mindset → Problem-solving  
-**Code Folder:** `Code/python/week-01/day-02-computers/`  
-**Documentation Link:** `01-Foundations/01-how-computers-work/`  
+**Code Folder:** `Code/python/week-01/memory_play.py`  
+**Documentation Link:** `01-Foundations/cpu-memory-cache.md/`  
 
 **Outcome:**  
 Understanding of basic computer architecture and memory management relevant for coding efficiency.
