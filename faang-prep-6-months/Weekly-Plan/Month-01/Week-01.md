@@ -29,8 +29,8 @@ Code/python/week-01/
 - Best practices (PEP8, virtual environments, documentation)
 
 **Dependencies:** None (starting point)  
-**Code Folder:** `Code/python/week-01/day-01-setup/`  
-**Documentation Link:** `00-Setup-And-Rules/tooling-setup.md`  
+**Code Folder:** `\Code\python\Week-01\test.py`  
+**Documentation Link:** `00-Setup-And-Rules/00-python-ide-setup.md`  
 
 **Outcome:**  
 Ready-to-code environment, GitHub repo initialized.
