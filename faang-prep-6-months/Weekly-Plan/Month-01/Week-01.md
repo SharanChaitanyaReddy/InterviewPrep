@@ -29,8 +29,8 @@ Code/python/week-01/
 - Best practices (PEP8, virtual environments, documentation)
 
 **Dependencies:** None (starting point)  
-**Code Folder:** `\Code\python\Week-01\test.py`  
-**Documentation Link:** `00-Setup-And-Rules/00-python-ide-setup.md`  
+**Code Folder:** [`test.py`](../../Code/python/Week-01/test.py) 
+**Documentation Link:** [`00-python-ide-setup.md`](../../00-Setup-And-Rules/00-python-ide-setup.md)
 
 **Outcome:**  
 Ready-to-code environment, GitHub repo initialized.
@@ -42,14 +42,20 @@ Ready-to-code environment, GitHub repo initialized.
 **Topics:**
 - CPU, Memory, Cache overview (impact on algorithm performance)
     **Dependencies:** Hardware understanding → Python basics   
-    **Code Folder:** `Code/python/week-01/memory_play.py`  
-    **Documentation Link:** `01-Foundations/cpu-memory-cache.md` 
+    **Code Folder:** [`memory_play.py.py`](../../Code/python/Week-01/memory_play.py)
+    **Documentation Link:** [`cpu-memory-cache.md`](../../01-Foundations/01-how-computers-work/cpu-memory-cache.md)
 - Operators & Expressions
     **Dependencies:** Hardware understanding → Python basics  
-    **Code Folder:** `Code/python/week-01/operators-expressions.py`  
-    **Documentation Link:** `01-Foundations/operators-Expressions.md/` 
+    **Code Folder:** [`operators-Expressions.py`](../../Code/python/Week-01/operators-expressions.py)
+    **Documentation Link:** [`operators-Expressions.md`](../../01-Foundations/01-how-computers-work/operators-Expressions.md)
 - Input/Output and Type Conversion
+    **Dependencies:** Hardware understanding → Python basics  
+    **Code Folder:** [`input-output.py`](../../Code/python/Week-01/input_output.py)  
+    **Documentation Link:** [`input-output.md`](../../01-Foundations/01-how-computers-work/input-ouput.md)
 - Stack vs Heap memory (recursion, allocation)
+    **Dependencies:** Hardware understanding → Python basics  
+    **Code Folder:** [`input-output.py`](../../Code/python/Week-01/input_output.py)  
+    **Documentation Link:** [`input-output.md`](../../01-Foundations/01-how-computers-work/input-ouput.md)
 - Why programs slow down (bottlenecks, cache misses, inefficient loops)
 
  
