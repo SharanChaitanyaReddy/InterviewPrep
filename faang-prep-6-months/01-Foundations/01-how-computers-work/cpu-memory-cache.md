@@ -85,8 +85,6 @@ Interview trick questions
 
 Create a file:
 
-Code/python/week-01/memory_play.py
-
 Experiment 1: Variable References
 a = 10
 b = a
@@ -279,7 +277,7 @@ RAM is temporary memory
 Disk is permanent storage
 
 What does the Python interpreter do?
-Reads the Python Code
+Reads the Python Code line by line and parses it
 
 Takes your .py file (or interactive input) and reads it line by line.
 
@@ -358,6 +356,42 @@ print(c)
 ✍️ Write your prediction → THEN run → explain mismatch (if any).
 
 This prediction habit is critical for FAANG interviews.
+
+a = [1, 2] → Creates a list object [1, 2] in memory.
+
+b = a → b references the same list object as a.
+
+c = a[:] → This creates a shallow copy of the list [1, 2]. c points to a different object in memory, but initially contains the same elements.
+
+Memory diagram:
+
+a ---> [1, 2]
+b ---^
+c ---> [1, 2]   (different object)
+
+Step 2: Append operation
+a.append(3)
+
+
+a now becomes [1, 2, 3].
+
+b points to the same object, so it also sees [1, 2, 3].
+
+c is a copy, so it remains [1, 2].
+
+Step 3: Print statements
+print(a)  # [1, 2, 3]
+print(b)  # [1, 2, 3]  (same object as a)
+print(c)  # [1, 2]     (different object)
+
+✅ Key Takeaways:
+
+Assignment copies references, not the object itself: b = a → both refer to the same list.
+
+Shallow copy (a[:]) creates a new object but does not deep-copy nested objects.
+
+Modifying a mutable object affects all variables referencing it, except copies.
+
 
 6️⃣ What NOT To Do Today ❌
 
