@@ -69,17 +69,11 @@ Best (modern Python)
 print(f"Value is {x}")
 
 Why f-strings?
-
-
 Faster
-
 
 Cleaner
 
-
 Less error-prone
-
-
 
 G. Performance Note (Important for FAANG)
 

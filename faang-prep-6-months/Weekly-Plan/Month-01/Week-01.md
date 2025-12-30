@@ -54,9 +54,12 @@ Ready-to-code environment, GitHub repo initialized.
     **Documentation Link:** [`input-output.md`](../../01-Foundations/01-how-computers-work/input-ouput.md)
 - Stack vs Heap memory (recursion, allocation)
     **Dependencies:** Hardware understanding → Python basics  
-    **Code Folder:** [`input-output.py`](../../Code/python/Week-01/input_output.py)  
-    **Documentation Link:** [`input-output.md`](../../01-Foundations/01-how-computers-work/input-ouput.md)
+    **Code Folder:** [`stack_heap.py`](../../Code/python/Week-01/stack_heap.py)  
+    **Documentation Link:** [`stack-vs-heap.md`](../../01-Foundations/01-how-computers-work/stack-vs-heap.md)
 - Why programs slow down (bottlenecks, cache misses, inefficient loops)
+    **Dependencies:** Hardware understanding → Python basics  
+    **Code Folder:** [`why_programs_slow.py`](../../Code/python/Week-01/why_programs_slow.py)  
+    **Documentation Link:** [`why-programs-are-slow.md`](../../01-Foundations/01-how-computers-work/why-programs-are-slow.md)
 
  
 
