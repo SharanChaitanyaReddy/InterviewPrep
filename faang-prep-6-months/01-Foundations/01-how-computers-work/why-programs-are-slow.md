@@ -119,6 +119,7 @@ Concept Check:
 Q: Which is faster: iterating row-wise or column-wise in a 2D array stored row-major?
 
 A: Row-wise, because memory is contiguous, reducing cache misses.
+    Contiguous memory blocks mean data is stored in sequential memory addresses, allowing efficient CPU caching, prefetching, and faster iteration. Non-contiguous memory leads to cache misses and performance degradation.
 
 4️⃣ Data Structure Choice
 
@@ -189,11 +190,17 @@ Q: Why is the second approach faster?
 A: str is immutable, so repeated += creates new objects. List append + join is memory efficient.
 
 Experiment 2: List vs Set Membership
+import timeit
 my_list = list(range(1000))
 my_set = set(range(1000))
 
-%timeit 999 in my_list
-%timeit 999 in my_set
+# List membership check
+time_list = timeit.timeit("999 in my_list", globals=globals(), number=1000)
+print(f"List check: {time_list:.6f} seconds")
+
+# Set membership check
+time_set = timeit.timeit("999 in my_set", globals=globals(), number=1000)
+print(f"Set check: {time_set:.6f} seconds")
 
 
 Q: Which is faster and why?
