@@ -76,8 +76,8 @@ Understanding of basic computer architecture and memory management relevant for 
 - Big O intuition from counting & growth
 
 **Dependencies:** Math → Complexity → Arrays/Loops in coding  
-**Code Folder:** `Code/python/week-01/day-03-practical-math-counting/`  
-**Documentation Link:** `01-Foundations/02-practical-math/counting-and-growth.md`  
+**Code Folder:** [`counting_growth.py`](../../Code/python/week-01/counting_growth.py)`  
+**Documentation Link:** [`counting-and-growth.md`](../../01-Foundations/02-practical-math/counting-and-growth.md)`  
 
 **Outcome:**  
 Ability to reason about algorithmic growth and loops.
@@ -94,8 +94,17 @@ Ability to reason about algorithmic growth and loops.
 **Dependencies:** Day 3 → Complexity understanding  
 **Code Folder:** `Code/python/week-01/day-04-practical-math-powers-mod/`  
 **Documentation Links:**  
-- `01-Foundations/02-practical-math/powers-logarithms.md`  
-- `01-Foundations/02-practical-math/mod-arithmetic.md`  
+- [`day-4.py`](../../Code/python/week-01/day-4.py)`  
+- [`day-4.md`](../../01-Foundations/02-practical-math/day-4.md)`  
+
+- [`modular-Arthmetic.py`](../../Code/python/week-01/modular-Arthematic.py)`  
+- [`modular-Arthmetic.md`](../../01-Foundations/02-practical-math/modular-Arthmetic.md)` 
+
+- [`powers--and-exponents.py`](../../Code/python/week-01/day-4.py)`  
+- [`powers--and-exponents.md`](../../01-Foundations/02-practical-math/powers--and-exponents.md)`
+
+- [`logarithms.py`](../../Code/python/week-01/logarithms.py)`  
+- [`logarithms.md`](../../01-Foundations/02-practical-math/Logarithms.md)` 
 
 **Outcome:**  
 Foundation for recursion, search algorithms, and hashing-based problem solving.
@@ -135,3 +144,4 @@ Ability to approach problems systematically and plan optimizations.
 - Basic problem-solving mindset established
 - First Python coding exercises linked to weekly folder
 - GitHub repo workflow set up
+
